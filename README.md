@@ -1,5 +1,9 @@
 # Awesome Gulp
-> A curated list of awesome gulp plugins & resources
+> A curated list of awesome gulp plugins and resources.
+
+Inspired by [awesome-angularjs](https://github.com/gianarb/awesome-angularjs).
+
+*Looking for something else? Take a look at other [awesome lists](https://github.com/sindresorhus/awesome).*
 
 ## Resources
 ### Official
