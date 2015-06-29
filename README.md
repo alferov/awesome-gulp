@@ -39,8 +39,6 @@
 
 ### Optimization
 * [gulp-uncss](https://github.com/ben-eb/gulp-uncss) - Remove unused CSS selectors
-<!-- Waiting for stable gulp-purifycss version -->
-<!-- * [gulp-purifycss](https://github.com/purifycss/gulp-purifycss) - removed unused CSS with the gulp build tool -->
 * [gulp-imagemin](https://github.com/sindresorhus/gulp-imagemin) - Minify PNG, JPEG, GIF and SVG images with imagemin
 * [gulp-base64](https://github.com/Wenqer/gulp-base64) - Gulp task for converting all data found within a stylesheet into base64-encoded data URI strings
 * [gulp-imacss](https://github.com/akoenig/gulp-imacss) - A gulp plugin for using imacss (the image to datauri to CSS transformer)
@@ -91,7 +89,6 @@
 * [gulp-plumber](https://github.com/floatdrop/gulp-plumber) - Prevent pipe breaking caused by errors from gulp plugins
 * [gulp-load-plugins](https://github.com/jackfranklin/gulp-load-plugins) - Automatically load in gulp plugins
 * [main-bower-files](https://github.com/ck86/main-bower-files) - Simplify build process setup by dynamically getting the library files
-* [gulp-shell](https://github.com/sun-zheng-an/gulp-shell) - A handy command line interface for gulp
 * [autoprefixer](https://github.com/postcss/autoprefixer) - Parse CSS and add vendor prefixes to rules by Can I Use
 * [gulp-sourcemaps](https://github.com/floridoo/gulp-sourcemaps) - Source map support for gulp
 * [gulp-replace](https://github.com/lazd/gulp-replace) - A string replace plugin for gulp
