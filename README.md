@@ -1,12 +1,16 @@
 # Awesome Gulp
 > A curated list of awesome gulp plugins & resources
 
-## Getting started
+## Resources
+### Official
 * [Documentation](https://github.com/gulpjs/gulp/tree/master/docs)
 * [Recipes](https://github.com/gulpjs/gulp/tree/master/docs/recipes#recipes)
 * [Articles](https://github.com/gulpjs/gulp/tree/master/docs#articles)
+* [Plugin registry](http://gulpjs.com/plugins)
+
+### Community
 * [Cheatsheet](https://github.com/osscafe/gulp-cheatsheet)
-* [Starter gulpfile.js ](https://github.com/greypants/gulp-starter)
+* [Starter gulpfile.js](https://github.com/greypants/gulp-starter)
 
 ## Plugins
 ### Compilation
