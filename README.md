@@ -96,6 +96,7 @@ Inspired by [awesome-angularjs](https://github.com/gianarb/awesome-angularjs).
 * [gulp-mocha](https://github.com/sindresorhus/gulp-mocha) - Run Mocha tests.
 * [gulp-jasmine](https://github.com/sindresorhus/gulp-jasmine) - Run Jasmine 2 tests in Node.js.
 * [gulp-protractor](https://github.com/mllrsohn/gulp-protractor) - Gulp wrapper for protractor tests.
+* [gulp-coverage](https://github.com/dylanb/gulp-coverage) - Coverage reporting for Node.js that is independent of the test runner.
 
 ### Miscellaneous
 * [gulp-util](https://github.com/gulpjs/gulp-util) - Utilities for gulp plugins.
