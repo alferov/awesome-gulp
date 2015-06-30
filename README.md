@@ -90,6 +90,7 @@ Inspired by [awesome-angularjs](https://github.com/gianarb/awesome-angularjs).
 * [gulp-util](https://github.com/gulpjs/gulp-util) - Utilities for gulp plugins (logs using [log method](https://github.com/gulpjs/gulp-util#logmsg)).
 * [gulp-notify](https://github.com/mikaelbr/gulp-notify) - Gulp plugin to send messages based on Vinyl Files or Errors using the node-notifier module.
 * [gulp-size](https://github.com/sindresorhus/gulp-size) - Display the size of your project.
+* [gulp-debug](https://github.com/sindresorhus/gulp-debug) - Debug vinyl file streams to see what files are run through your gulp pipeline.
 
 ### Testing
 * [gulp-mocha](https://github.com/sindresorhus/gulp-mocha) - Run Mocha tests.
