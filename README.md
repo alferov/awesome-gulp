@@ -24,8 +24,6 @@ Inspired by [awesome-angularjs](https://github.com/gianarb/awesome-angularjs).
 * [gulp-less](https://github.com/plus3network/gulp-less) - A Less plugin for gulp.
 * [gulp-stylus](https://github.com/stevelacy/gulp-stylus) - Stylus plugin for gulp.
 * [gulp-coffee](https://github.com/wearefractal/gulp-coffee) - Coffeescript plugin for gulp.
-* [gulp-babel](https://github.com/babel/gulp-babel) - Turn ES6 code into vanilla ES5 with no runtime required using babel.
-* [gulp-traceur](https://github.com/sindresorhus/gulp-traceur) - Traceur is a JavaScript.next to JavaScript-of-today compiler.
 * [gulp-typescript](https://github.com/ivogabe/gulp-typescript) - A TypeScript compiler for gulp with incremental compilation support.
 * [gulp-react](https://github.com/sindresorhus/gulp-react) - Precompile Facebook React JSX templates into JavaScript.
 * [gulp-angular-templatecache](https://github.com/miickel/gulp-angular-templatecache) - Concatenates and registers AngularJS templates in the $templateCache.
@@ -34,6 +32,12 @@ Inspired by [awesome-angularjs](https://github.com/gianarb/awesome-angularjs).
 * [gulp-nunjucks](https://github.com/sindresorhus/gulp-nunjucks) - Precompile Nunjucks templates.
 * [gulp-dustjs](https://github.com/sindresorhus/gulp-dust) - Precompile Dust templates.
 * [gulp-riot](https://github.com/e-jigsaw/gulp-riot) - Gulp plugin for Riot.
+
+### Transpilation
+* [gulp-babel](https://github.com/babel/gulp-babel) - Turn ES6 code into vanilla ES5 with no runtime required using babel.
+* [gulp-traceur](https://github.com/sindresorhus/gulp-traceur) - Traceur is a JavaScript.next to JavaScript-of-today compiler.
+* [gulp-regenerator](https://github.com/sindresorhus/gulp-regenerator) - Transpile ES6 generator functions to ES5 with Regenerator.
+* [gulp-es6-transpiler](https://github.com/sindresorhus/gulp-es6-transpiler) - Transpile ES6 to ES5.
 
 ### Concatenation
 * [gulp-concat](https://github.com/wearefractal/gulp-concat) - Streaming concat middleware for gulp.
