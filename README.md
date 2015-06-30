@@ -52,7 +52,7 @@ Inspired by [awesome-angularjs](https://github.com/gianarb/awesome-angularjs).
 ### Optimization
 * [gulp-uncss](https://github.com/ben-eb/gulp-uncss) - Remove unused CSS selectors.
 * [gulp-imagemin](https://github.com/sindresorhus/gulp-imagemin) - Minify PNG, JPEG, GIF and SVG images with imagemin.
-* [gulp-base64](https://github.com/Wenqer/gulp-base64) - Gulp task for converting all data found within a stylesheet into base64-encoded data URI strings.
+* [gulp-css-base64](https://github.com/zckrs/gulp-css-base64) - Transform all resources found (those within a url() declaration) into base64-encoded data URI strings.
 * [gulp-imacss](https://github.com/akoenig/gulp-imacss) - A gulp plugin for using imacss (the image to datauri to CSS transformer).
 * [gulp-svg2png](https://github.com/mahnunchik/gulp-responsive) - A gulp plugin for converting SVGs to PNGs.
 * [gulp-responsive](https://github.com/mahnunchik/gulp-responsive) - Generates images at different sizes.
