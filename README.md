@@ -109,9 +109,9 @@ Inspired by [awesome-angularjs](https://github.com/gianarb/awesome-angularjs).
 * [gulp-rename](https://github.com/hparra/gulp-rename) - Rename files easily.
 * [gulp-rev](https://github.com/sindresorhus/gulp-rev) - Static asset revisioning by appending content hash to filenames: unicorn.css → unicorn-d41d8cd98f.css.
 * [del](https://github.com/sindresorhus/del) - Delete files/folders using globs.
+* [gulp-exec](https://github.com/robrich/gulp-exec) - Exec plugin for gulp.
 
 ## License
-
 [![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
 
 To the extent possible under law, [Philipp Alferov](https://github.com/alferov) has waived all copyright and related or neighboring rights to this work.
