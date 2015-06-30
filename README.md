@@ -108,6 +108,7 @@ Inspired by [awesome-angularjs](https://github.com/gianarb/awesome-angularjs).
 * [gulp-replace](https://github.com/lazd/gulp-replace) - A string replace plugin for gulp.
 * [gulp-rename](https://github.com/hparra/gulp-rename) - Rename files easily.
 * [gulp-rev](https://github.com/sindresorhus/gulp-rev) - Static asset revisioning by appending content hash to filenames: unicorn.css → unicorn-d41d8cd98f.css.
+* [del](https://github.com/sindresorhus/del) - Delete files/folders using globs.
 
 ## License
 
