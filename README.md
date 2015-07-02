@@ -33,12 +33,11 @@ Inspired by [awesome-angularjs](https://github.com/gianarb/awesome-angularjs).
 * [gulp-dustjs](https://github.com/sindresorhus/gulp-dust) - [Dust](https://github.com/linkedin/dustjs) templates → JavaScript.
 * [gulp-riot](https://github.com/e-jigsaw/gulp-riot) - [Riot](https://github.com/riot/riot) templates → JavaScript.
 
-
 ### Transpilation
-* [gulp-babel](https://github.com/babel/gulp-babel) - Turn ES6 code into vanilla ES5 with no runtime required using babel.
-* [gulp-traceur](https://github.com/sindresorhus/gulp-traceur) - Traceur is a JavaScript.next to JavaScript-of-today compiler.
-* [gulp-regenerator](https://github.com/sindresorhus/gulp-regenerator) - Transpile ES6 generator functions to ES5 with Regenerator.
-* [gulp-es6-transpiler](https://github.com/sindresorhus/gulp-es6-transpiler) - Transpile ES6 to ES5.
+* [gulp-babel](https://github.com/babel/gulp-babel) - ES6 → ES5 with [babel](https://github.com/babel/babel).
+* [gulp-traceur](https://github.com/sindresorhus/gulp-traceur) - ES6 → ES5 using [Traceur](https://github.com/google/traceur-compiler).
+* [gulp-regenerator](https://github.com/sindresorhus/gulp-regenerator) - ES6 → ES5 with [Regenerator](https://github.com/facebook/regenerator).
+* [gulp-es6-transpiler](https://github.com/sindresorhus/gulp-es6-transpiler) - ES6 → ES5 with [es6-transpiler](https://github.com/termi/es6-transpiler).
 
 ### Concatenation
 * [gulp-concat](https://github.com/wearefractal/gulp-concat) - Streaming concat middleware for gulp.
