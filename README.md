@@ -40,14 +40,15 @@ Inspired by [awesome-angularjs](https://github.com/gianarb/awesome-angularjs).
 * [gulp-es6-transpiler](https://github.com/sindresorhus/gulp-es6-transpiler) - ES6 → ES5 with [es6-transpiler](https://github.com/termi/es6-transpiler).
 
 ### Concatenation
-* [gulp-concat](https://github.com/wearefractal/gulp-concat) - Streaming concat middleware for gulp.
+* [gulp-concat](https://github.com/wearefractal/gulp-concat) - Concatenate files.
 
 ### Minification
-* [gulp-minify-css](https://github.com/murphydanger/gulp-minify-css) - A gulp plugin that minifies css with clean-css.
-* [gulp-csso](https://github.com/ben-eb/gulp-csso) - Minify CSS with CSSO.
-* [gulp-uglify](https://github.com/terinjokes/gulp-uglify) - Minify JavaScript with UglifyJS2.
-* [gulp-minify-html](https://github.com/murphydanger/gulp-minify-html) - A gulp plugin that minifies HTML with Minimize.
-* [gulp-htmlmin](https://github.com/jonschlinkert/gulp-htmlmin) - Gulp plugin to minify HTML.
+* [gulp-minify-css](https://github.com/murphydanger/gulp-minify-css) - Minify CSS with [clean-css](https://github.com/jakubpawlowicz/clean-css).
+* [gulp-csso](https://github.com/ben-eb/gulp-csso) - Minify CSS with [CSSO](https://github.com/css/csso).
+* [gulp-uglify](https://github.com/terinjokes/gulp-uglify) - Minify JavaScript with [UglifyJS2](https://github.com/mishoo/UglifyJS2).
+* [gulp-htmlmin](https://github.com/jonschlinkert/gulp-htmlmin) - Minify HTML with [html-minifier](https://github.com/kangax/html-minifier).
+* [gulp-minify-html](https://github.com/murphydanger/gulp-minify-html) - Minify HTML with
+ [Minimize](https://github.com/Moveo/minimize).
 
 ### Optimization
 * [gulp-uncss](https://github.com/ben-eb/gulp-uncss) - Remove unused CSS selectors.
