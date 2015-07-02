@@ -51,24 +51,23 @@ Inspired by [awesome-angularjs](https://github.com/gianarb/awesome-angularjs).
  [Minimize](https://github.com/Moveo/minimize).
 
 ### Optimization
-* [gulp-uncss](https://github.com/ben-eb/gulp-uncss) - Remove unused CSS selectors.
-* [gulp-imagemin](https://github.com/sindresorhus/gulp-imagemin) - Minify PNG, JPEG, GIF and SVG images with imagemin.
-* [gulp-css-base64](https://github.com/zckrs/gulp-css-base64) - Transform all resources found (those within a url() declaration) into base64-encoded data URI strings.
-* [gulp-imacss](https://github.com/akoenig/gulp-imacss) - A gulp plugin for using imacss (the image to datauri to CSS transformer).
-* [gulp-svg2png](https://github.com/mahnunchik/gulp-responsive) - A gulp plugin for converting SVGs to PNGs.
-* [gulp-responsive](https://github.com/mahnunchik/gulp-responsive) - Generates images at different sizes.
+* [gulp-uncss](https://github.com/ben-eb/gulp-uncss) - Remove unused CSS selectors with [UnCSS](https://github.com/giakki/uncss).
+* [gulp-imagemin](https://github.com/sindresorhus/gulp-imagemin) - Minify PNG, JPEG, GIF and SVG images with [imagemin](https://github.com/imagemin/imagemin).
+* [gulp-css-base64](https://github.com/zckrs/gulp-css-base64) - Transform all resources found (those within a url() declaration) in CSS files into base64-encoded data URI strings.
+* [gulp-svg2png](https://github.com/akoenig/gulp-svg2png) - Convert SVGs to PNGs.
+* [gulp-responsive](https://github.com/mahnunchik/gulp-responsive) - Generate images at different sizes.
 
 ### Injecting assets
 * [gulp-useref](https://github.com/jonkemp/gulp-useref) - Parse build blocks in HTML files to replace references to non-optimized scripts or stylesheets.
-* [gulp-inject](https://github.com/klei/gulp-inject) - A JavaScript, stylesheet and webcomponent injection plugin for gulp.
+* [gulp-inject](https://github.com/klei/gulp-inject) - Transform each file to a string and inject each transformed string into placeholders in the target stream files.
 * [wiredep](https://github.com/taptapship/wiredep) - Wire Bower dependencies to your source code.
 
 ### Linting
-* [gulp-csslint](https://www.npmjs.com/package/gulp-csslint) - CSSLint plugin for gulp.
-* [gulp-htmlhint](https://github.com/bezoerb/gulp-htmlhint) - HTMLHint wrapper for gulp to validate your HTML.
-* [gulp-jshint](https://github.com/spalger/gulp-jshint) - JSHint plugin for gulp.
-* [gulp-jscs](https://github.com/jscs-dev/gulp-jscs) - Check JavaScript code style with jscs.
-* [gulp-coffeelint](https://github.com/janraasch/gulp-coffeelint) - CoffeeLint plugin for gulp.
+* [gulp-csslint](https://www.npmjs.com/package/gulp-csslint) - Automated linting of CSS with [CSSLint](https://github.com/CSSLint/csslint).
+* [gulp-htmlhint](https://github.com/bezoerb/gulp-htmlhint) - [HTMLHint](https://github.com/yaniswang/HTMLHint) wrapper to validate your HTML.
+* [gulp-jshint](https://github.com/spalger/gulp-jshint) - Detect errors and potential problems in JavaScript with [JSHint](https://github.com/jshint/jshint).
+* [gulp-jscs](https://github.com/jscs-dev/gulp-jscs) - Check JavaScript code style with [jscs](https://github.com/jscs-dev/node-jscs).
+* [gulp-coffeelint](https://github.com/janraasch/gulp-coffeelint) - A style checker that helps keep CoffeeScript code clean.
 * [gulp-tslint](https://github.com/panuhorsmalahti/gulp-tslint) - TypeScript linter plugin for gulp.
 
 ### Live reloading
@@ -89,14 +88,14 @@ Inspired by [awesome-angularjs](https://github.com/gianarb/awesome-angularjs).
 
 ### Logging
 * [gulp-util](https://github.com/gulpjs/gulp-util) - Utilities for gulp plugins (logs using [log method](https://github.com/gulpjs/gulp-util#logmsg)).
-* [gulp-notify](https://github.com/mikaelbr/gulp-notify) - Gulp plugin to send messages based on Vinyl Files or Errors using the node-notifier module.
+* [gulp-notify](https://github.com/mikaelbr/gulp-notify) - Notification plugin for gulp.
 * [gulp-size](https://github.com/sindresorhus/gulp-size) - Display the size of your project.
 * [gulp-debug](https://github.com/sindresorhus/gulp-debug) - Debug vinyl file streams to see what files are run through your gulp pipeline.
 
 ### Testing
-* [gulp-mocha](https://github.com/sindresorhus/gulp-mocha) - Run Mocha tests.
-* [gulp-jasmine](https://github.com/sindresorhus/gulp-jasmine) - Run Jasmine 2 tests in Node.js.
-* [gulp-protractor](https://github.com/mllrsohn/gulp-protractor) - Gulp wrapper for protractor tests.
+* [gulp-mocha](https://github.com/sindresorhus/gulp-mocha) - Run [Mocha](https://github.com/mochajs/mocha) tests.
+* [gulp-jasmine](https://github.com/sindresorhus/gulp-jasmine) - Run [Jasmine 2](https://github.com/jasmine/jasmine) tests in Node.js.
+* [gulp-protractor](https://github.com/mllrsohn/gulp-protractor) - Gulp wrapper for [Protractor](https://github.com/angular/protractor) tests.
 * [gulp-coverage](https://github.com/dylanb/gulp-coverage) - Coverage reporting for Node.js that is independent of the test runner.
 
 ### Miscellaneous
@@ -110,7 +109,7 @@ Inspired by [awesome-angularjs](https://github.com/gianarb/awesome-angularjs).
 * [gulp-rename](https://github.com/hparra/gulp-rename) - Rename files easily.
 * [gulp-rev](https://github.com/sindresorhus/gulp-rev) - Static asset revisioning by appending content hash to filenames: unicorn.css → unicorn-d41d8cd98f.css.
 * [del](https://github.com/sindresorhus/del) - Delete files/folders using globs.
-* [gulp-exec](https://github.com/robrich/gulp-exec) - Exec plugin for gulp.
+* [gulp-exec](https://github.com/robrich/gulp-exec) - Run a shell command.
 
 ## License
 [![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
