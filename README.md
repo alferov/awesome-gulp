@@ -18,20 +18,21 @@ Inspired by [awesome-angularjs](https://github.com/gianarb/awesome-angularjs).
 
 ## Plugins
 ### Compilation
-* [gulp-sass](https://github.com/dlmanning/gulp-sass) - Sass plugin for gulp.
-* [gulp-ruby-sass](https://github.com/sindresorhus/gulp-ruby-sass) - Compiles Sass to CSS with Ruby Sass.
-* [gulp-compass](https://github.com/appleboy/gulp-compass) - Compiles Sass to CSS using Compass.
-* [gulp-less](https://github.com/plus3network/gulp-less) - A Less plugin for gulp.
-* [gulp-stylus](https://github.com/stevelacy/gulp-stylus) - Stylus plugin for gulp.
-* [gulp-coffee](https://github.com/wearefractal/gulp-coffee) - Coffeescript plugin for gulp.
-* [gulp-typescript](https://github.com/ivogabe/gulp-typescript) - A TypeScript compiler for gulp with incremental compilation support.
-* [gulp-react](https://github.com/sindresorhus/gulp-react) - Precompile Facebook React JSX templates into JavaScript.
-* [gulp-angular-templatecache](https://github.com/miickel/gulp-angular-templatecache) - Concatenates and registers AngularJS templates in the $templateCache.
-* [gulp-jade](https://github.com/phated/gulp-jade) - Compile Jade templates with gulp build tool.
-* [gulp-handlebars](https://github.com/lazd/gulp-handlebars) - Handlebars plugin for gulp 3.
-* [gulp-nunjucks](https://github.com/sindresorhus/gulp-nunjucks) - Precompile Nunjucks templates.
-* [gulp-dustjs](https://github.com/sindresorhus/gulp-dust) - Precompile Dust templates.
-* [gulp-riot](https://github.com/e-jigsaw/gulp-riot) - Gulp plugin for Riot.
+* [gulp-sass](https://github.com/dlmanning/gulp-sass) - Sass → CSS with [libsass](https://github.com/sass/libsass).
+* [gulp-ruby-sass](https://github.com/sindresorhus/gulp-ruby-sass) - Sass → CSS with Ruby Sass.
+* [gulp-compass](https://github.com/appleboy/gulp-compass) - Sass → CSS with Ruby Sass & Compass.
+* [gulp-less](https://github.com/plus3network/gulp-less) - [Less](https://github.com/less/less.js) → CSS.
+* [gulp-stylus](https://github.com/stevelacy/gulp-stylus) - [Stylus](https://github.com/stylus/stylus) → CSS.
+* [gulp-coffee](https://github.com/wearefractal/gulp-coffee) - [Coffeescript](https://github.com/jashkenas/coffeescript) → JavaScript.
+* [gulp-typescript](https://github.com/ivogabe/gulp-typescript) - [TypeScript](https://github.com/Microsoft/TypeScript) → JavaScript.
+* [gulp-react](https://github.com/sindresorhus/gulp-react) - Facebook [React](https://github.com/facebook/react) JSX templates → JavaScript.
+* [gulp-angular-templatecache](https://github.com/miickel/gulp-angular-templatecache) - Concatenate and register AngularJS templates in the $templateCache.
+* [gulp-jade](https://github.com/phated/gulp-jade) - [Jade](https://github.com/jadejs/jade) → HTML.
+* [gulp-handlebars](https://github.com/lazd/gulp-handlebars) - [Handlebars](https://github.com/wycats/handlebars.js) templates → JavaScript.
+* [gulp-nunjucks](https://github.com/sindresorhus/gulp-nunjucks) - [Nunjucks](https://github.com/mozilla/nunjucks) templates → JavaScript.
+* [gulp-dustjs](https://github.com/sindresorhus/gulp-dust) - [Dust](https://github.com/linkedin/dustjs) templates → JavaScript.
+* [gulp-riot](https://github.com/e-jigsaw/gulp-riot) - [Riot](https://github.com/riot/riot) templates → JavaScript.
+
 
 ### Transpilation
 * [gulp-babel](https://github.com/babel/gulp-babel) - Turn ES6 code into vanilla ES5 with no runtime required using babel.
