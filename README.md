@@ -1,51 +1,52 @@
 # Awesome Gulp
-> A curated list of awesome gulp plugins and resources.
-
-Inspired by [awesome-angularjs](https://github.com/gianarb/awesome-angularjs).
+> A curated list of awesome Gulp resources, plugins and boilerplates for development workflow automation.
 
 *Looking for something else? Take a look at other [awesome lists](https://github.com/sindresorhus/awesome).*
 
 ## Resources
 ### General Resources
-* [Gulp Official Website](http://gulpjs.com/)
-* [Gulp Plugin Registry](http://gulpjs.com/plugins/)
-* [Gulp NPM Module](https://www.npmjs.com/package/gulp)
-* [Gulp Plugin Blacklist](https://github.com/gulpjs/plugins/blob/master/src/blackList.json)
+* [Official Website](http://gulpjs.com/)
+* [Github Repository](https://github.com/gulpjs/gulp)
+* [Plugin Registry](http://gulpjs.com/plugins/)
+* [NPM Module](https://www.npmjs.com/package/gulp)
+* [Blacklisted Plugins](https://github  .com/gulpjs/plugins/blob/master/src/blackList.json)
 
 ### Official Documentation
 * [Getting Started](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md)
-* [API documentation](https://github.com/gulpjs/gulp/blob/master/docs/API.md)
-* [CLI documentation](https://github.com/gulpjs/gulp/tree/master/docs#articles)
-* [Writing a plugin](https://github.com/gulpjs/gulp/blob/master/docs/writing-a-plugin/README.md)
+* [API Documentation](https://github.com/gulpjs/gulp/blob/master/docs/API.md)
+* [CLI Documentation](https://github.com/gulpjs/gulp/tree/master/docs#articles)
+* [Writing a Plugin](https://github.com/gulpjs/gulp/blob/master/docs/writing-a-plugin/README.md)
+* [Recipes](https://github.com/gulpjs/gulp/tree/master/docs/recipes)
 
 ### Community
-* [Gulp StackOverflow](http://stackoverflow.com/questions/tagged/gulp)
-* [Gulp Twitter](https://twitter.com/gulpjs)
+* [StackOverflow](http://stackoverflow.com/questions/tagged/gulp)
+* [Twitter](https://twitter.com/gulpjs)
 
 ### Tutorials
+#### Gulp
 * [Building with Gulp](http://www.smashingmagazine.com/2014/06/11/building-with-gulp/)
-* [Automate your tasks easily with Gulp.js](https://scotch.io/tutorials/automate-you-tasks-easily-with-gulp-js)
-* [Gulp - The vision, history, and future of the project](https://medium.com/@contrahacks/gulp-3828e8126466)
+* [Automate your Tasks Easily with Gulp.js](https://scotch.io/tutorials/automate-you-tasks-easily-with-gulp-js)
+* [Gulp - The Vision, History, and Future of the Project](https://medium.com/@contrahacks/gulp-3828e8126466)
 * [Introduction to Gulp.js](http://stefanimhoff.de/tag/gulp/)
 * [Learning Gulp](http://leveluptuts.com/tutorials/learning-gulp)
-* [Using Gulp to inject scripts and styles tags directly into your HTML](http://blog.icanmakethiswork.io/2015/02/using-gulp-in-asp-net-instead-of-web-optimization.html)
-* [5 lessons learned using Gulp.js](http://denbuzze.com/post/5-lessons-learned-using-gulpjs/)
-* [Automating linkage: how I learned to stop worrying and love the build](http://lab.brightnorth.co.uk/2014/08/13/automating-linkage-how-i-learned-to-stop-worrying-and-love-the-build/)
+* [Using Gulp to Inject Scripts and Styles Tags Directly into Your HTML](http://blog.icanmakethiswork.io/2015/02/using-gulp-in-asp-net-instead-of-web-optimization.html)
+* [5 Lessons Learned Using Gulp.js](http://denbuzze.com/post/5-lessons-learned-using-gulpjs/)
+* [Automating Linkage: How I Learned to Stop Worrying and Love the Build](http://lab.brightnorth.co.uk/2014/08/13/automating-linkage-how-i-learned-to-stop-worrying-and-love-the-build/)
 
-#### Gulp with browserify
-* [Gulp + browserify, the Gulp-y way](https://medium.com/@sogko/gulp-browserify-the-gulp-y-way-bb359b3f9623)
-* [Gulp + browserify](http://viget.com/extend/gulp-browserify-starter-faq)
-* [Fast browserify builds with watchify](https://github.com/gulpjs/gulp/blob/master/docs/recipes/fast-browserify-builds-with-watchify.md)
+#### Gulp with Browserify
+* [Gulp + browserify, the Gulp-y Way](https://medium.com/@sogko/gulp-browserify-the-gulp-y-way-bb359b3f9623)
+* [Gulp + Browserify](http://viget.com/extend/gulp-browserify-starter-faq)
+* [Fast Browserify Builds with Watchify](https://github.com/gulpjs/gulp/blob/master/docs/recipes/fast-browserify-builds-with-watchify.md)
 
 #### Gulp with Angular
 * [What every Angular project likely needs - and a Gulp build to provide It](http://blog.jhades.org/what-every-angular-project-likely-needs-and-a-gulp-build-to-provide-it/)
 
-#### Gulp with Angular and browserify
-* [Advanced AngularJS structure with Gulp, Node and browserify](http://omarfouad.com/blog/2015/03/21/advanced-angularjs-structure-with-gulp-node-and-browserify/)
+#### Gulp with Angular and Browserify
+* [Advanced AngularJS Structure with Gulp, Node and Browserify](http://omarfouad.com/blog/2015/03/21/advanced-angularjs-structure-with-gulp-node-and-browserify/)
 
-#### Gulp with React and browserify
+#### Gulp with React and Browserify
 * [Browserify and Gulp with React](https://hacks.mozilla.org/2014/08/browserify-and-gulp-with-react/)
-* [Taking React to the next level: mixins, Gulp, and browserify](http://pomax.github.io/1420592591221/taking-react-to-the-next-level-mixins-gulp-and-browserify)
+* [Taking React to the Next Level: Mixins, Gulp, and Browserify](http://pomax.github.io/1420592591221/taking-react-to-the-next-level-mixins-gulp-and-browserify)
 
 #### Gulp with Ember
 * [Improving Your Ember.js Workflow Using Gulp.js](http://www.sitepoint.com/improving-ember-js-workflow-using-gulp-js/)
