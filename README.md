@@ -47,6 +47,9 @@ Inspired by [awesome-angularjs](https://github.com/gianarb/awesome-angularjs).
 * [Browserify and Gulp with React](https://hacks.mozilla.org/2014/08/browserify-and-gulp-with-react/)
 * [Taking React to the next level: mixins, Gulp, and browserify](http://pomax.github.io/1420592591221/taking-react-to-the-next-level-mixins-gulp-and-browserify)
 
+#### Gulp with Ember
+* [Improving Your Ember.js Workflow Using Gulp.js](http://www.sitepoint.com/improving-ember-js-workflow-using-gulp-js/)
+
 ### Miscellaneous
 * [Gulp Cheatsheet](https://github.com/osscafe/gulp-cheatsheet)
 
