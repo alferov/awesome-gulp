@@ -149,6 +149,28 @@ Inspired by [awesome-angularjs](https://github.com/gianarb/awesome-angularjs).
 * [gulp-exec](https://github.com/robrich/gulp-exec) - Run a shell command.
 * [gulp-strip-debug](https://github.com/sindresorhus/gulp-strip-debug) - Strip console, alert, and debugger statements from JavaScript code.
 
+## Scaffolding
+### Boilerplates
+* [web-starter-kit](https://github.com/google/web-starter-kit) - Google Web Starter Kit.
+* [gulp-plugin-boilerplate](https://github.com/sindresorhus/gulp-plugin-boilerplate) - Boilerplate to kickstart creating gulp plugins.
+* [polymer-starter-kit](https://github.com/polymerelements/polymer-starter-kit) - A starting point for Polymer 1.0 apps.
+* [este](https://github.com/este/este) - The most complete React/Flux dev stack and starter kit for isomorphic functional web apps.
+* [mnml](https://github.com/mrmrs/mnml) - Minimal boilerplate to start a responsive html5/sass project.
+* [kraken](https://github.com/cferdinandi/kraken) - A lightweight, mobile-first boilerplate for front-end web developers.
+* [angularjs-gulp-browserify-boilerplate](https://github.com/jakemmarsh/angularjs-gulp-browserify-boilerplate) - Boilerplate using AngularJS, SASS, Gulp, and Browserify.
+* [hapi-ninja](https://github.com/poeticninja/hapi-ninja) - Boilerplate Hapi server example. Node.js, Hapi, and Swig.
+* [laravel-5-boilerplate](https://github.com/rappasoft/laravel-5-boilerplate) - A Laravel 5 Boilerplate Project.
+
+### Yeoman Generators
+* [generator-gulp-webapp](https://github.com/yeoman/generator-gulp-webapp) - A Gulp generator for modern webapps.
+* [generator-gulp-angular](https://github.com/Swiip/generator-gulp-angular) - Yeoman generator for AngularJS with Gulp.
+* [generator-react-gulp-browserify](https://github.com/randylien/generator-react-gulp-browserify) - Yeoman generator for AngularJS with Gulp.
+* [generator-node-gulp](https://github.com/youngmountain/generator-node-gulp) - Create a Node.js module with yo, including gulp and Mocha unit tests.
+* [generator-gulp-bootstrap](https://github.com/niallobrien/generator-gulp-bootstrap) - Yeoman generator for Bootstrap, Gulp & libsass.
+* [generator-angulpify](https://github.com/jgoux/generator-angulpify) - Yeoman generator involving AngularJS, Gulp and Browserify.
+* [generator-ionic-gulp](https://github.com/tmaximini/generator-ionic-gulp) - A Yeoman generator for Ionic Projects with Gulp.
+* [generator-gulp-plugin-boilerplate](https://github.com/sindresorhus/generator-gulp-plugin-boilerplate) - Scaffold out a [gulp plugin boilerplate](https://github.com/sindresorhus/gulp-plugin-boilerplate).
+
 ## License
 [![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
 
