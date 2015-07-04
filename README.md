@@ -3,6 +3,37 @@
 
 *Looking for something else? Take a look at other [awesome lists](https://github.com/sindresorhus/awesome).*
 
+## Contents
+- [Resources](#resources)
+  - [General Resources](#general-resources)
+  - [Official Documentation](#official-documentation)
+  - [Community](#community)
+  - [Tutorials](#tutorials)
+    - [Gulp Tutorials](#gulp-tutorials)
+    - [Gulp with Browserify](#gulp-with-browserify)
+    - [Gulp with Angular](#gulp-with-browserify)
+    - [Gulp with Angular and Browserify](#gulp-with-angular-and-browserify)
+    - [Gulp with React and Browserify](#gulp-with-react-and-browserify)
+    - [Gulp with Ember](#gulp-with-ember)
+  - [Miscellaneous](#miscellaneous)
+- [Plugins](#plugins)
+  - [Compilation](#compilation)
+  - [Transpilation](#transpilation)
+  - [Concatenation](#concatenation)
+  - [Minification](#minification)
+  - [Optimization](#optimization)
+  - [Injecting Assets](#injecting-assets)
+  - [Linting](#linting)
+  - [Live Reloading](#live-reloading)
+  - [Caching](#caching)
+  - [Flow Control](#flow-control)
+  - [Logging](#logging)
+  - [Testing](#testing)
+  - [Miscellaneous](#miscellaneous-1)
+- [Scaffolding](#scaffolding)
+  - [Boilerplates](#boilerplates)
+  - [Yeoman Generators](#yeoman-generators)
+
 ## Resources
 ### General Resources
 * [Official Website](http://gulpjs.com/)
@@ -23,7 +54,7 @@
 * [Twitter](https://twitter.com/gulpjs)
 
 ### Tutorials
-#### Gulp
+#### Gulp Tutorials
 * [Building with Gulp](http://www.smashingmagazine.com/2014/06/11/building-with-gulp/)
 * [Automate your Tasks Easily with Gulp.js](https://scotch.io/tutorials/automate-you-tasks-easily-with-gulp-js)
 * [Gulp - The Vision, History, and Future of the Project](https://medium.com/@contrahacks/gulp-3828e8126466)
