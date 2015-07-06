@@ -59,10 +59,11 @@
 * [Automate your Tasks Easily with Gulp.js](https://scotch.io/tutorials/automate-you-tasks-easily-with-gulp-js)
 * [Gulp - The Vision, History, and Future of the Project](https://medium.com/@contrahacks/gulp-3828e8126466)
 * [Introduction to Gulp.js](http://stefanimhoff.de/tag/gulp/)
-* [Learning Gulp](http://leveluptuts.com/tutorials/learning-gulp)
+* [Video: Learning Gulp](http://leveluptuts.com/tutorials/learning-gulp)
 * [Using Gulp to Inject Scripts and Styles Tags Directly into Your HTML](http://blog.icanmakethiswork.io/2015/02/using-gulp-in-asp-net-instead-of-web-optimization.html)
 * [5 Lessons Learned Using Gulp.js](http://denbuzze.com/post/5-lessons-learned-using-gulpjs/)
 * [Automating Linkage: How I Learned to Stop Worrying and Love the Build](http://lab.brightnorth.co.uk/2014/08/13/automating-linkage-how-i-learned-to-stop-worrying-and-love-the-build/)
+* [Migrating to Gulp 4 by Example](https://blog.wearewizards.io/migrating-to-gulp-4-by-example)
 
 #### Gulp with Browserify
 * [Gulp + browserify, the Gulp-y Way](https://medium.com/@sogko/gulp-browserify-the-gulp-y-way-bb359b3f9623)
