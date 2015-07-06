@@ -40,7 +40,7 @@
 * [Github Repository](https://github.com/gulpjs/gulp)
 * [Plugin Registry](http://gulpjs.com/plugins/)
 * [NPM Module](https://www.npmjs.com/package/gulp)
-* [Blacklisted Plugins](https://github  .com/gulpjs/plugins/blob/master/src/blackList.json)
+* [Blacklisted Plugins](https://github.com/gulpjs/plugins/blob/master/src/blackList.json)
 
 ### Official Documentation
 * [Getting Started](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md)
@@ -188,25 +188,25 @@
 ## Scaffolding
 ### Boilerplates
 * [web-starter-kit](https://github.com/google/web-starter-kit) - Google Web Starter Kit.
-* [gulp-plugin-boilerplate](https://github.com/sindresorhus/gulp-plugin-boilerplate) - Boilerplate to kickstart creating gulp plugins.
+* [gulp-plugin-boilerplate](https://github.com/sindresorhus/gulp-plugin-boilerplate) - Boilerplate to kickstart creating Gulp plugins.
 * [polymer-starter-kit](https://github.com/polymerelements/polymer-starter-kit) - A starting point for Polymer 1.0 apps.
 * [este](https://github.com/este/este) - The most complete React/Flux dev stack and starter kit for isomorphic functional web apps.
-* [mnml](https://github.com/mrmrs/mnml) - Minimal boilerplate to start a responsive html5/sass project.
+* [mnml](https://github.com/mrmrs/mnml) - Minimal boilerplate to start a responsive HTML5/Sass project.
 * [kraken](https://github.com/cferdinandi/kraken) - A lightweight, mobile-first boilerplate for front-end web developers.
-* [angularjs-gulp-browserify-boilerplate](https://github.com/jakemmarsh/angularjs-gulp-browserify-boilerplate) - Boilerplate using AngularJS, SASS, Gulp, and Browserify.
-* [hapi-ninja](https://github.com/poeticninja/hapi-ninja) - Boilerplate Hapi server example. Node.js, Hapi, and Swig.
-* [laravel-5-boilerplate](https://github.com/rappasoft/laravel-5-boilerplate) - A Laravel 5 Boilerplate Project.
+* [angularjs-gulp-browserify-boilerplate](https://github.com/jakemmarsh/angularjs-gulp-browserify-boilerplate) - Boilerplate using AngularJS, Sass, Gulp, and Browserify.
+* [hapi-ninja](https://github.com/poeticninja/hapi-ninja) - A Node.js, Hapi, and Swig boilerplate.
+* [laravel-5-boilerplate](https://github.com/rappasoft/laravel-5-boilerplate) - A Laravel 5 boilerplate project.
 
 ### Yeoman Generators
 * [generator-gulp-webapp](https://github.com/yeoman/generator-gulp-webapp) - A Gulp generator for modern webapps.
 * [generator-gulp-angular](https://github.com/Swiip/generator-gulp-angular) - Yeoman generator for AngularJS with Gulp.
-* [generator-react-gulp-browserify](https://github.com/randylien/generator-react-gulp-browserify) - Yeoman generator for AngularJS with Gulp.
-* [generator-node-gulp](https://github.com/youngmountain/generator-node-gulp) - Create a Node.js module with yo, including gulp and Mocha unit tests.
+* [generator-react-gulp-browserify](https://github.com/randylien/generator-react-gulp-browserify) - A Yeoman Generator for React library. It includes Gulp, Browserify, Browsersync and Bootstrap.
+* [generator-node-gulp](https://github.com/youngmountain/generator-node-gulp) - A Node.js module generator including Gulp and Mocha.
 * [generator-gulp-bootstrap](https://github.com/niallobrien/generator-gulp-bootstrap) - Yeoman generator for Bootstrap, Gulp & libsass.
 * [generator-angulpify](https://github.com/jgoux/generator-angulpify) - Yeoman generator involving AngularJS, Gulp and Browserify.
 * [generator-ionic-gulp](https://github.com/tmaximini/generator-ionic-gulp) - A Yeoman generator for Ionic Projects with Gulp.
 * [generator-gulp-plugin-boilerplate](https://github.com/sindresorhus/generator-gulp-plugin-boilerplate) - Scaffold out a [gulp plugin boilerplate](https://github.com/sindresorhus/gulp-plugin-boilerplate).
-* [generator-jekyllized](https://github.com/sondr3/generator-jekyllized) - Jekyll workflow with Gulp, SASS, AutoPrefixer, asset optimization and cache busting and much more.
+* [generator-jekyllized](https://github.com/sondr3/generator-jekyllized) - Jekyll workflow with Gulp, Sass, AutoPrefixer, asset optimization and cache busting and much more.
 
 ## License
 [![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
