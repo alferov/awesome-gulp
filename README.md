@@ -97,6 +97,7 @@
 * [gulp-coffee](https://github.com/wearefractal/gulp-coffee) - [Coffeescript](https://github.com/jashkenas/coffeescript) → JavaScript.
 * [gulp-typescript](https://github.com/ivogabe/gulp-typescript) - [TypeScript](https://github.com/Microsoft/TypeScript) → JavaScript.
 * [gulp-react](https://github.com/sindresorhus/gulp-react) - Facebook [React](https://github.com/facebook/react) JSX templates → JavaScript.
+* [webpack-stream](https://github.com/shama/webpack-stream) - Run webpack as a stream to conveniently integrate with gulp.
 * [gulp-angular-templatecache](https://github.com/miickel/gulp-angular-templatecache) - Concatenate and register AngularJS templates in the $templateCache.
 * [gulp-jade](https://github.com/phated/gulp-jade) - [Jade](https://github.com/jadejs/jade) → HTML.
 * [gulp-handlebars](https://github.com/lazd/gulp-handlebars) - [Handlebars](https://github.com/wycats/handlebars.js) templates → JavaScript.
