@@ -206,6 +206,7 @@
 * [generator-angulpify](https://github.com/jgoux/generator-angulpify) - Yeoman generator involving AngularJS, Gulp and Browserify.
 * [generator-ionic-gulp](https://github.com/tmaximini/generator-ionic-gulp) - A Yeoman generator for Ionic Projects with Gulp.
 * [generator-gulp-plugin-boilerplate](https://github.com/sindresorhus/generator-gulp-plugin-boilerplate) - Scaffold out a [gulp plugin boilerplate](https://github.com/sindresorhus/gulp-plugin-boilerplate).
+* [generator-jekyllized](https://github.com/sondr3/generator-jekyllized) - Jekyll workflow with Gulp, SASS, AutoPrefixer, asset optimization and cache busting and much more.
 
 ## License
 [![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
