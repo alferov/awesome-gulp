@@ -105,6 +105,7 @@
 * [gulp-dustjs](https://github.com/sindresorhus/gulp-dust) - [Dust](https://github.com/linkedin/dustjs) templates → JavaScript.
 * [gulp-riot](https://github.com/e-jigsaw/gulp-riot) - [Riot](https://github.com/riot/riot) templates → JavaScript.
 * [gulp-markdown](https://github.com/sindresorhus/gulp-markdown) - Markdown → HTML.
+* [gulp-template](https://github.com/sindresorhus/gulp-template) - [Lodash templates](https://github.com/lodash/lodash) → JavaScript.
 * [gulp-iconfont](https://github.com/nfroidure/gulp-iconfont) - Create icon fonts from several SVG icons.
 
 ### Transpilation
