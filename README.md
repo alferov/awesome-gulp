@@ -15,7 +15,7 @@
     - [Gulp with Angular and Browserify](#gulp-with-angular-and-browserify)
     - [Gulp with React and Browserify](#gulp-with-react-and-browserify)
     - [Gulp with Ember](#gulp-with-ember)
-  - [Miscellaneous](#miscellaneous)
+  - [Miscellaneous Resources](#miscellaneous-resources)
 - [Plugins](#plugins)
   - [Compilation](#compilation)
   - [Transpilation](#transpilation)
@@ -29,10 +29,11 @@
   - [Flow Control](#flow-control)
   - [Logging](#logging)
   - [Testing](#testing)
-  - [Miscellaneous](#miscellaneous-1)
+  - [Miscellaneous Plugins](#miscellaneous-plugins)
 - [Scaffolding](#scaffolding)
   - [Boilerplates](#boilerplates)
   - [Yeoman Generators](#yeoman-generators)
+- [Miscellaneous](#miscellaneous)
 
 ## Resources
 ### General Resources
@@ -83,7 +84,7 @@
 #### Gulp with Ember
 * [Improving Your Ember.js Workflow Using Gulp.js](http://www.sitepoint.com/improving-ember-js-workflow-using-gulp-js/)
 
-### Miscellaneous
+### Miscellaneous Resources
 * [Gulp Cheatsheet](https://github.com/osscafe/gulp-cheatsheet)
 
 ## Plugins
@@ -174,7 +175,7 @@
 * [gulp-protractor](https://github.com/mllrsohn/gulp-protractor) - Gulp wrapper for [Protractor](https://github.com/angular/protractor) tests.
 * [gulp-coverage](https://github.com/dylanb/gulp-coverage) - Coverage reporting for Node.js that is independent of the test runner.
 
-### Miscellaneous
+### Miscellaneous Plugins
 * [gulp-util](https://github.com/gulpjs/gulp-util) - Set of useful utilities.
 * [gulp-plumber](https://github.com/floatdrop/gulp-plumber) - Prevent pipe breaking caused by errors.
 * [gulp-load-plugins](https://github.com/jackfranklin/gulp-load-plugins) - Automatically load in Gulp plugins.
@@ -211,6 +212,10 @@
 * [generator-ionic-gulp](https://github.com/tmaximini/generator-ionic-gulp) - A Yeoman generator for Ionic Projects with Gulp.
 * [generator-gulp-plugin-boilerplate](https://github.com/sindresorhus/generator-gulp-plugin-boilerplate) - Scaffold out a [gulp plugin boilerplate](https://github.com/sindresorhus/gulp-plugin-boilerplate).
 * [generator-jekyllized](https://github.com/sondr3/generator-jekyllized) - Jekyll workflow with Gulp, Sass, AutoPrefixer, asset optimization and cache busting and much more.
+
+## Miscellaneous
+* [elixir](https://github.com/laravel/elixir) - A clean, fluent API for defining basic Gulp tasks for your Laravel applications.
+* [gulp-app](https://github.com/sindresorhus/gulp-app) - Gulp as an app (OS X).
 
 ## License
 [![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
