@@ -16,6 +16,7 @@
     - [Gulp with Browserify](#gulp-with-browserify)
     - [Gulp with Angular](#gulp-with-browserify)
     - [Gulp with Angular and Browserify](#gulp-with-angular-and-browserify)
+    - [Gulp with Angular and Webpack](#gulp-with-angular-and-webpack)
     - [Gulp with React and Browserify](#gulp-with-react-and-browserify)
     - [Gulp with Ember](#gulp-with-ember)
   - [Miscellaneous Resources](#miscellaneous-resources)
@@ -79,6 +80,11 @@
 
 #### Gulp with Angular and Browserify
 * [Advanced AngularJS Structure with Gulp, Node and Browserify](http://omarfouad.com/blog/2015/03/21/advanced-angularjs-structure-with-gulp-node-and-browserify/)
+
+#### Gulp with Angular and Webpack
+* [Angular, Webpack and Gulp for an SPA: Part I](http://luwen-huang.net/2015/01/18/Angular-webpack-and-gulp-for-SPAs-Part-I.html)
+* [Angular, Webpack and Gulp for an SPA: Part II](http://luwen-huang.net/2015/01/20/Angular-webpack-and-gulp-for-SPAs-Part-II.html)
+* [Angular, Webpack and Gulp for an SPA: Part III](http://luwen-huang.net/2015/01/25/Angular-webpack-and-gulp-for-SPAs-Part-III.html)
 
 #### Gulp with React and Browserify
 * [Browserify and Gulp with React](https://hacks.mozilla.org/2014/08/browserify-and-gulp-with-react/)
