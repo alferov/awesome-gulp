@@ -3,6 +3,9 @@
 
 *Looking for something else? Take a look at other [awesome lists](https://github.com/sindresorhus/awesome).*
 
+## Contribution
+:octocat: All contributions welcome. Feel free to contribute [(guidelines)](contributing.md).
+
 ## Contents
 - [Resources](#resources)
   - [General Resources](#general-resources)
@@ -57,7 +60,7 @@
 ### Tutorials
 #### Gulp Tutorials
 * [Building with Gulp](http://www.smashingmagazine.com/2014/06/11/building-with-gulp/)
-* [Automate your Tasks Easily with Gulp.js](https://scotch.io/tutorials/automate-you-tasks-easily-with-gulp-js)
+* [Automate Your Tasks Easily with Gulp.js](https://scotch.io/tutorials/automate-you-tasks-easily-with-gulp-js)
 * [Gulp - The Vision, History, and Future of the Project](https://medium.com/@contrahacks/gulp-3828e8126466)
 * [Introduction to Gulp.js](http://stefanimhoff.de/tag/gulp/)
 * [Video: Learning Gulp](http://leveluptuts.com/tutorials/learning-gulp)
@@ -67,12 +70,12 @@
 * [Migrating to Gulp 4 by Example](https://blog.wearewizards.io/migrating-to-gulp-4-by-example)
 
 #### Gulp with Browserify
-* [Gulp + browserify, the Gulp-y Way](https://medium.com/@sogko/gulp-browserify-the-gulp-y-way-bb359b3f9623)
+* [Gulp + Browserify, the Gulp-y Way](https://medium.com/@sogko/gulp-browserify-the-gulp-y-way-bb359b3f9623)
 * [Gulp + Browserify](http://viget.com/extend/gulp-browserify-starter-faq)
 * [Fast Browserify Builds with Watchify](https://github.com/gulpjs/gulp/blob/master/docs/recipes/fast-browserify-builds-with-watchify.md)
 
 #### Gulp with Angular
-* [What every Angular project likely needs - and a Gulp build to provide It](http://blog.jhades.org/what-every-angular-project-likely-needs-and-a-gulp-build-to-provide-it/)
+* [What Every Angular Project Likely Needs - and a Gulp Build to Provide It](http://blog.jhades.org/what-every-angular-project-likely-needs-and-a-gulp-build-to-provide-it/)
 
 #### Gulp with Angular and Browserify
 * [Advanced AngularJS Structure with Gulp, Node and Browserify](http://omarfouad.com/blog/2015/03/21/advanced-angularjs-structure-with-gulp-node-and-browserify/)
