@@ -197,6 +197,7 @@
 * [del](https://github.com/sindresorhus/del) - Delete files/folders using globs.
 * [gulp-exec](https://github.com/robrich/gulp-exec) - Run a shell command.
 * [gulp-strip-debug](https://github.com/sindresorhus/gulp-strip-debug) - Strip console, alert, and debugger statements from JavaScript code.
+* [gulp-cssimport](https://github.com/unlight/gulp-cssimport) - Parses a CSS file, finds imports, grabs the content of the linked file and replaces the import statement with it.
 
 ## Scaffolding
 ### Boilerplates
