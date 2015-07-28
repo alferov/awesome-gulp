@@ -96,6 +96,7 @@
 
 ### Miscellaneous Resources
 * [Gulp Cheatsheet](https://github.com/osscafe/gulp-cheatsheet)
+* [Playground for Gulp Recipes](https://github.com/johnpapa/gulp-patterns)
 
 ## Plugins
 ### Compilation
