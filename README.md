@@ -206,6 +206,7 @@
 * [gulp-inline-css](https://github.com/jonkemp/gulp-inline-css) - Inline your CSS properties into the style attribute in an HTML file.
 * [gulp-gh-pages](https://github.com/shinnn/gulp-gh-pages) - Publish contents to Github pages.
 * [gulp-ng-annotate](https://github.com/Kagami/gulp-ng-annotate) - Add AngularJS dependency injection annotations with [ng-annotate](https://github.com/olov/ng-annotate).
+* [gulp-bump](https://github.com/stevelacy/gulp-bump) - Bump any semvar JSON version.
 
 ## Scaffolding
 ### Boilerplates
