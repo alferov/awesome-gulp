@@ -1,4 +1,5 @@
-# Awesome Gulp
+# Awesome Gulp [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+
 > A curated list of awesome Gulp resources, plugins, and boilerplates for a better development workflow automation.
 
 *Looking for something else? Take a look at other [awesome lists](https://github.com/sindresorhus/awesome).*
