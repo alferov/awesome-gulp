@@ -212,6 +212,7 @@
 * [gulp-bump](https://github.com/stevelacy/gulp-bump) - Bump any semvar JSON version.
 * [gulp-file-include](gulp-file-include) - A gulp plugin for file include.
 * [gulp-zip](https://github.com/sindresorhus/gulp-zip) - ZIP compress files.
+* [gulp-git](https://github.com/stevelacy/gulp-git) - Run Git commands with Gulp.
 
 ## Scaffolding
 ### Boilerplates
