@@ -210,7 +210,7 @@
 * [gulp-gh-pages](https://github.com/shinnn/gulp-gh-pages) - Publish contents to Github pages.
 * [gulp-ng-annotate](https://github.com/Kagami/gulp-ng-annotate) - Add AngularJS dependency injection annotations with [ng-annotate](https://github.com/olov/ng-annotate).
 * [gulp-bump](https://github.com/stevelacy/gulp-bump) - Bump any semvar JSON version.
-* [gulp-file-include](gulp-file-include) - A gulp plugin for file include.
+* [gulp-file-include](https://github.com/coderhaoxin/gulp-file-include) - Include files with Gulp.
 * [gulp-zip](https://github.com/sindresorhus/gulp-zip) - ZIP compress files.
 * [gulp-git](https://github.com/stevelacy/gulp-git) - Run Git commands with Gulp.
 
