@@ -192,6 +192,7 @@
 * [gulp-jasmine](https://github.com/sindresorhus/gulp-jasmine) - Run [Jasmine 2](https://github.com/jasmine/jasmine) tests in Node.js.
 * [gulp-protractor](https://github.com/mllrsohn/gulp-protractor) - gulp wrapper for [Protractor](https://github.com/angular/protractor) tests.
 * [gulp-coverage](https://github.com/dylanb/gulp-coverage) - Coverage reporting for Node.js that is independent of the test runner.
+* [gulp-karma](https://github.com/karma-runner/gulp-karma) - Karma test runner for gulp.
 
 ### Miscellaneous Plugins
 * [gulp-util](https://github.com/gulpjs/gulp-util) - Set of useful utilities.
