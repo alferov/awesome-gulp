@@ -13,6 +13,8 @@
   },
   "homepage": "https://github.com/alferov/awesome-gulp#readme",
   "devDependencies": {
-    "gulp": "^3.9.0"
+    "gulp": "^3.9.0",
+    "gulp-load-plugins": "^1.0.0-rc.1",
+    "gulp-markdown": "^1.0.0"
   }
 }
