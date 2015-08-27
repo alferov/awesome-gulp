@@ -8,6 +8,9 @@ function fileContents (filePath, file) {
   return file.contents.toString();
 }
 
+/*
+* Inject compiled markdown to index.html
+*/
 gulp.task('markdown', () => {
   let markdown = gulp.src('./README.md')
     .pipe($.markdown());
@@ -20,6 +23,9 @@ gulp.task('markdown', () => {
     .pipe(gulp.dest('./tmp'));
 });
 
+/*
+* Publish to gh-pages
+*/
 gulp.task('deploy', () => {
   return gulp.src('./tmp/**/*')
     .pipe($.ghPages());
