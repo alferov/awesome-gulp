@@ -7,14 +7,14 @@ import browserSync from 'browser-sync';
 const $ = gulpLoadPlugins();
 const config = {
   src: {
-    styles: './gh-pages/*.css',
+    styles: './gh-pages/src/css/*.css',
     markdown: './README.md',
-    html: './gh-pages/index.html'
+    html: './gh-pages/src/index.html'
   },
-  dist: './tmp',
+  dist: './gh-pages/build',
   browserSync: {
     port: 3000,
-    baseDir: './tmp'
+    baseDir: './gh-pages/build'
   }
 };
 
@@ -32,19 +32,18 @@ gulp.task('markdown', ['clean'], () => {
   let markdown = gulp.src(config.src.markdown)
     .pipe($.markdown());
 
-  let styles = gulp.src(config.src.styles)
-    .pipe(gulp.dest(config.dist));
+  let assets = $.useref.assets();
 
   return gulp.src(config.src.html)
+    .pipe(assets)
+    .pipe($.if('*.css', $.minifyCss()))
+    .pipe(assets.restore())
+    .pipe($.useref())
     .pipe($.inject(markdown, {
       transform: fileContents
     }))
-    .pipe($.inject(styles, {
-      read: false,
-      relative: true
-    }))
     .pipe(gulp.dest(config.dist))
-    .pipe(browserSync.stream());
+    .pipe($.if(browserSync.active, browserSync.stream()));
 });
 
 gulp.task('clean', del.bind(null, [config.dist]));
@@ -73,7 +72,7 @@ gulp.task('watch', function() {
  * Publish to gh-pages
  */
 gulp.task('deploy', () => {
-  return gulp.src('./tmp/**/*')
+  return gulp.src(config.dist + '/**/*')
     .pipe($.ghPages());
 });
 

@@ -18,8 +18,11 @@
     "del": "^1.2.1",
     "gulp": "^3.9.0",
     "gulp-gh-pages": "^0.5.2",
+    "gulp-if": "^1.2.5",
     "gulp-inject": "^1.5.0",
     "gulp-load-plugins": "^1.0.0-rc.1",
-    "gulp-markdown": "^1.0.0"
+    "gulp-markdown": "^1.0.0",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-useref": "^1.3.0"
   }
 }
