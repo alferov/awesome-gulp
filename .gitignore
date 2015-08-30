@@ -2,3 +2,4 @@ node_modules/
 tmp/
 gh_pages/build
 .publish
+bower_components
