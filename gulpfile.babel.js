@@ -13,7 +13,8 @@ const config = {
     styles: './gh-pages/src/css/*.css',
     markdown: './README.md',
     html: './gh-pages/src/index.html',
-    font: './gh-pages/src/font/*.*'
+    font: './gh-pages/src/font/**/*',
+    img: './gh-pages/src/img/**/*'
   },
   dist: './gh-pages/build',
   browserSync: {
@@ -66,6 +67,11 @@ gulp.task('font', () => {
     .pipe(gulp.dest(config.dist + '/font'))
 });
 
+gulp.task('img', () => {
+  return gulp.src(config.src.img)
+    .pipe(gulp.dest(config.dist + '/img'))
+});
+
 gulp.task('clean', del.bind(null, [config.dist]));
 
 gulp.task('serve', function() {
@@ -92,13 +98,13 @@ gulp.task('watch', function() {
 /**
  * Publish to gh-pages
  */
-gulp.task('deploy', ['build'], () => {
+gulp.task('deploy', () => {
   return gulp.src(config.dist + '/**/*')
     .pipe($.ghPages());
 });
 
 gulp.task('build', () => {
-  runSequence('clean', ['font', 'html']);
+  runSequence('clean', ['font', 'img', 'html']);
 });
 
 gulp.task('dev', () => {
