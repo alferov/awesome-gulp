@@ -92,11 +92,17 @@ gulp.task('watch', function() {
 /**
  * Publish to gh-pages
  */
-gulp.task('deploy', ['html'], () => {
+gulp.task('deploy', ['build'], () => {
   return gulp.src(config.dist + '/**/*')
     .pipe($.ghPages());
 });
 
-gulp.task('default', () => {
+gulp.task('build', () => {
+  runSequence('clean', ['font', 'html']);
+});
+
+gulp.task('dev', () => {
   runSequence('clean', ['font', 'html', 'serve', 'watch']);
 });
+
+gulp.task('default', ['build']);
