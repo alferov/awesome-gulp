@@ -32,18 +32,20 @@ function fileContents(filePath, file) {
  */
 gulp.task('wiredep', () => {
   gulp.src(config.src.html)
-    .pipe(wiredep())
+    .pipe(wiredep({
+      ignorePath: /^(\.\.\/)*\.\./
+    }))
     .pipe(gulp.dest(config.src.root));
 });
 
 /**
- * Inject compiled markdown to index.html
+ * Inject compiled markdown & handle html files
  */
-gulp.task('markdown', ['clean'], () => {
+gulp.task('html', ['clean'], () => {
   let markdown = gulp.src(config.src.markdown)
     .pipe($.markdown());
 
-  let assets = $.useref.assets();
+  const assets = $.useref.assets({searchPath: ['.', config.src.root]});
 
   return gulp.src(config.src.html)
     .pipe(assets)
@@ -64,6 +66,9 @@ gulp.task('serve', function() {
     port: config.browserSync.port,
     server: {
       baseDir: config.browserSync.baseDir,
+      routes: {
+        '/bower_components': 'bower_components'
+      }
     },
     logConnections: true,
     logFileChanges: true,
@@ -72,19 +77,17 @@ gulp.task('serve', function() {
 });
 
 gulp.task('watch', function() {
-  gulp.watch([
-    config.src.styles,
-    config.src.markdown,
-    config.src.html
-  ], ['markdown']);
+  gulp.watch([config.src.markdown, config.src.html], ['html']);
+  gulp.watch(config.src.styles, browserSync.stream);
+  gulp.watch('bower.json', ['wiredep']);
 });
 
 /**
  * Publish to gh-pages
  */
-gulp.task('deploy', () => {
+gulp.task('deploy', ['html'], () => {
   return gulp.src(config.dist + '/**/*')
     .pipe($.ghPages());
 });
 
-gulp.task('default', ['markdown', 'serve', 'watch']);
+gulp.task('default', ['html', 'serve', 'watch']);
