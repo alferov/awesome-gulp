@@ -3,10 +3,12 @@ import gulp from 'gulp';
 import gulpLoadPlugins from 'gulp-load-plugins';
 import del from 'del';
 import browserSync from 'browser-sync';
+import { stream as wiredep } from 'wiredep';
 
 const $ = gulpLoadPlugins();
 const config = {
   src: {
+    root: './gh-pages/src',
     styles: './gh-pages/src/css/*.css',
     markdown: './README.md',
     html: './gh-pages/src/index.html'
@@ -24,6 +26,15 @@ const config = {
 function fileContents(filePath, file) {
   return file.contents.toString();
 }
+
+/*
+ * Add Bower dependencies to the source code automatically
+ */
+gulp.task('wiredep', () => {
+  gulp.src(config.src.html)
+    .pipe(wiredep())
+    .pipe(gulp.dest(config.src.root));
+});
 
 /**
  * Inject compiled markdown to index.html
