@@ -2,69 +2,95 @@
 * See https://github.com/google/material-design-lite/blob/master/templates/article/styles.css
 */
 
-.demo-ribbon {
+a {
+  color:#303F9F;
+  text-decoration: none;
+}
+
+blockquote:before, blockquote:after {
+  content: "";
+  margin: 0;
+}
+
+blockquote {
+  margin: 0;
+  padding: 0 15px;
+  border-left: 4px solid #ddd;
+}
+
+.mdl-layout-title > a {
+  color: #424242 !important;
+}
+
+.mdl-ribbon {
   width: 100%;
   height: 40vh;
-  background-color: #673AB7;
+  background-color: #514A9D;
+  background: -webkit-linear-gradient(0deg,#303F9F 10%,#9C27B0 90%);
+  background: linear-gradient(90deg,#303F9F 10%,#9C27B0 90%);
   flex-shrink: 0;
 }
 
-.demo-main {
+.mdl-main {
   margin-top: -35vh;
   flex-shrink: 0;
 }
 
-.demo-header .mdl-layout__header-row {
-  padding-left: 40px;
+.mdl-header .mdl-layout__header-row {
+  padding-left: 0;
 }
 
-.demo-container {
+.mdl-container {
   max-width: 1600px;
   width: calc(100% - 16px);
   margin: 0 auto;
 }
 
-.demo-content {
+.mdl-content {
   border-radius: 2px;
   padding: 30px 45px;
   margin-bottom: 80px;
 }
 
-.demo-layout.is-small-screen .demo-content {
+.mdl-layout.is-small-screen .mdl-content {
   padding: 40px 28px;
 }
 
-.demo-content h1 {
-  margin: 26px 0;
+.mdl-content h1 {
   font-size: 30px;
+  line-height: normal;
 }
 
-.demo-content h2 {
-  margin: 20px 0;
+.mdl-content h2 {
   font-size: 26px;
+  line-height: normal;
 }
 
-.demo-content h3 {
-  margin: 16px 0;
+.mdl-content h3 {
   font-size: 18px;
+  line-height: normal;
 }
 
-.demo-content h4 {
-  margin: 12px 0;
+.mdl-content h4 {
   font-size: 16px;
+  line-height: normal;
 }
 
-.demo-footer {
+.mdl-footer {
   padding-left: 40px;
 }
 
-blockquote:before {
-  content: ""
-}
-blockquote:after {
-  content: ""
+.mdl-footer .mdl-mini-footer--link-list a {
+  font-size: 13px;
 }
 
-.demo-footer .mdl-mini-footer--link-list a {
-  font-size: 13px;
+.mdl-layout-logo {
+  width: 100px;
+}
+.icon {
+  color: #424242;
+}
+
+.icon-large {
+  font-size: 32px;
 }

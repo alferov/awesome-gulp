@@ -1,5 +1,5 @@
 node_modules/
 tmp/
-gh_pages/build
+gh-pages/build
 .publish
 bower_components

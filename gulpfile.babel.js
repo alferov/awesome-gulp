@@ -4,6 +4,7 @@ import gulpLoadPlugins from 'gulp-load-plugins';
 import del from 'del';
 import browserSync from 'browser-sync';
 import { stream as wiredep } from 'wiredep';
+import runSequence from 'run-sequence';
 
 const $ = gulpLoadPlugins();
 const config = {
@@ -11,7 +12,8 @@ const config = {
     root: './gh-pages/src',
     styles: './gh-pages/src/css/*.css',
     markdown: './README.md',
-    html: './gh-pages/src/index.html'
+    html: './gh-pages/src/index.html',
+    font: './gh-pages/src/font/*.*'
   },
   dist: './gh-pages/build',
   browserSync: {
@@ -41,7 +43,7 @@ gulp.task('wiredep', () => {
 /**
  * Inject compiled markdown & handle html files
  */
-gulp.task('html', ['clean'], () => {
+gulp.task('html', () => {
   let markdown = gulp.src(config.src.markdown)
     .pipe($.markdown());
 
@@ -59,6 +61,11 @@ gulp.task('html', ['clean'], () => {
     .pipe($.if(browserSync.active, browserSync.stream()));
 });
 
+gulp.task('font', () => {
+  return gulp.src(config.src.font)
+    .pipe(gulp.dest(config.dist + '/font'))
+});
+
 gulp.task('clean', del.bind(null, [config.dist]));
 
 gulp.task('serve', function() {
@@ -67,7 +74,8 @@ gulp.task('serve', function() {
     server: {
       baseDir: config.browserSync.baseDir,
       routes: {
-        '/bower_components': 'bower_components'
+        '/bower_components': 'bower_components',
+        '/img': 'gh-pages/src/img'
       }
     },
     logConnections: true,
@@ -77,8 +85,7 @@ gulp.task('serve', function() {
 });
 
 gulp.task('watch', function() {
-  gulp.watch([config.src.markdown, config.src.html], ['html']);
-  gulp.watch(config.src.styles, browserSync.stream);
+  gulp.watch([config.src.markdown, config.src.html, config.src.styles], ['html']);
   gulp.watch('bower.json', ['wiredep']);
 });
 
@@ -90,4 +97,6 @@ gulp.task('deploy', ['html'], () => {
     .pipe($.ghPages());
 });
 
-gulp.task('default', ['html', 'serve', 'watch']);
+gulp.task('default', () => {
+  runSequence('clean', ['font', 'html', 'serve', 'watch']);
+});
