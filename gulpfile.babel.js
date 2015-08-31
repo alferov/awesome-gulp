@@ -103,16 +103,16 @@ gulp.task('gh-pages', () => {
     .pipe($.ghPages());
 });
 
-gulp.task('deploy', () => {
-  runSequence('build', 'gh-pages');
+gulp.task('deploy', (callback) => {
+  runSequence('build', 'gh-pages', callback);
 });
 
-gulp.task('build', () => {
-  runSequence('clean', ['font', 'img', 'html']);
+gulp.task('build', (callback) => {
+  runSequence('clean', ['font', 'img', 'html'], callback);
 });
 
-gulp.task('dev', () => {
-  runSequence('clean', ['font', 'html', 'serve', 'watch']);
+gulp.task('dev', (callback) => {
+  runSequence('clean', ['font', 'html', 'serve', 'watch', callback]);
 });
 
 gulp.task('default', ['build']);
