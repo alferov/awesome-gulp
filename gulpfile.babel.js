@@ -64,12 +64,12 @@ gulp.task('html', () => {
 
 gulp.task('font', () => {
   return gulp.src(config.src.font)
-    .pipe(gulp.dest(config.dist + '/font'))
+    .pipe(gulp.dest(config.dist + '/font'));
 });
 
 gulp.task('img', () => {
   return gulp.src(config.src.img)
-    .pipe(gulp.dest(config.dist + '/img'))
+    .pipe(gulp.dest(config.dist + '/img'));
 });
 
 gulp.task('clean', del.bind(null, [config.dist]));
@@ -98,9 +98,13 @@ gulp.task('watch', function() {
 /**
  * Publish to gh-pages
  */
-gulp.task('deploy', () => {
+gulp.task('gh-pages', () => {
   return gulp.src(config.dist + '/**/*')
     .pipe($.ghPages());
+});
+
+gulp.task('deploy', () => {
+  runSequence('build', 'gh-pages');
 });
 
 gulp.task('build', () => {
