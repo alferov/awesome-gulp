@@ -10,7 +10,7 @@ const $ = gulpLoadPlugins();
 const config = {
   src: {
     root: './gh-pages/src',
-    styles: './gh-pages/src/css/*.css',
+    styles: './gh-pages/src/sass',
     markdown: './README.md',
     html: './gh-pages/src/index.html',
     font: './gh-pages/src/font/**/*',
@@ -90,8 +90,15 @@ gulp.task('serve', function() {
   });
 });
 
-gulp.task('watch', function() {
+gulp.task('styles', () => {
+  gulp.src(config.src.styles + '/custom.scss')
+    .pipe($.sass())
+    .pipe(gulp.dest(config.dist + '/css'));
+});
+
+gulp.task('watch', () => {
   gulp.watch([config.src.markdown, config.src.html, config.src.styles], ['html']);
+  gulp.watch(config.src.styles + '/**/*.scss', ['styles']);
   gulp.watch('bower.json', ['wiredep']);
 });
 
@@ -108,11 +115,11 @@ gulp.task('deploy', (callback) => {
 });
 
 gulp.task('build', (callback) => {
-  runSequence('clean', ['font', 'img', 'html'], callback);
+  runSequence('clean', ['styles','font', 'img', 'html'],  callback);
 });
 
 gulp.task('dev', (callback) => {
-  runSequence('clean', ['font', 'html', 'serve', 'watch', callback]);
+  runSequence('clean', ['styles', 'font'], [ 'html', 'serve', 'watch'], callback);
 });
 
 gulp.task('default', ['build']);
