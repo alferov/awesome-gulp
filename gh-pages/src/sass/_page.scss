@@ -7,19 +7,21 @@ a {
   text-decoration: none;
 }
 
-blockquote:before, blockquote:after {
-  content: "";
-  margin: 0;
-}
-
 blockquote {
   margin: 0;
   padding: 0 15px;
   border-left: 4px solid #ddd;
+  &:before,
+  &:after {
+    content: "";
+    margin: 0;
+  }
 }
 
-.mdl-layout-title > a {
-  color: #424242 !important;
+.mdl-layout-title {
+  & > a {
+    color: #424242 !important;
+  }
 }
 
 .mdl-ribbon {
@@ -36,8 +38,10 @@ blockquote {
   flex-shrink: 0;
 }
 
-.mdl-header .mdl-layout__header-row {
-  padding-left: 0;
+.mdl-header  {
+  .mdl-layout__header-row {
+    padding-left: 0;
+  }
 }
 
 .mdl-container {
@@ -46,47 +50,48 @@ blockquote {
   margin: 0 auto;
 }
 
-.mdl-content {
+.mdl-layout.is-small-screen  {
+  .mdl-content {
+    padding: 40px 28px;
+  }
+}
+
+.mdl-content  {
   border-radius: 2px;
   padding: 30px 45px;
   margin-bottom: 80px;
-}
 
-.mdl-layout.is-small-screen .mdl-content {
-  padding: 40px 28px;
-}
-
-.mdl-content h1 {
-  font-size: 30px;
-  line-height: normal;
-}
-
-.mdl-content h2 {
-  font-size: 26px;
-  line-height: normal;
-}
-
-.mdl-content h3 {
-  font-size: 18px;
-  line-height: normal;
-}
-
-.mdl-content h4 {
-  font-size: 16px;
-  line-height: normal;
+  h1 {
+    font-size: 30px;
+    line-height: normal;
+  }
+  h2 {
+    font-size: 26px;
+    line-height: normal;
+  }
+  h3 {
+    font-size: 18px;
+    line-height: normal;
+  }
+  h4 {
+    font-size: 16px;
+    line-height: normal;
+  }
 }
 
 .mdl-footer {
   padding-left: 40px;
-}
-
-.mdl-footer .mdl-mini-footer--link-list a {
-  font-size: 13px;
+  .mdl-mini-footer--link-list {
+    a {
+      font-size: 13px;
+    }
+  }
 }
 
 .mdl-layout-logo {
   width: 100px;
 }
+
 .icon {
   color: #424242;
 }
