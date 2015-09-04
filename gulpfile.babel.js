@@ -19,7 +19,7 @@ const config = {
   dist: './gh-pages/build',
   browserSync: {
     port: 3000,
-    baseDir: './gh-pages/build'
+    baseDir: ['./gh-pages/src', './gh-pages/build']
   }
 };
 
@@ -67,7 +67,6 @@ gulp.task('html', () => {
     .pipe(browserSync.stream());
 });
 
-
 gulp.task('font', () => {
   return gulp.src(config.src.font)
     .pipe(gulp.dest(config.dist + '/font'));
@@ -113,7 +112,7 @@ gulp.task('watch', () => {
 /**
  * Publish to gh-pages
  */
-gulp.task('gh-pages', () => {
+gulp.task('gh-pages', ['build'], () => {
   return gulp.src(config.dist + '/**/*')
     .pipe($.ghPages());
 });
@@ -123,11 +122,11 @@ gulp.task('deploy', (callback) => {
 });
 
 gulp.task('build', (callback) => {
-  runSequence('clean', ['styles','font', 'img', 'html'],  callback);
+  runSequence('clean', 'markdown', ['styles','font', 'img', 'html'],  callback);
 });
 
 gulp.task('dev', (callback) => {
-  runSequence('clean', ['styles', 'font', 'html', 'serve', 'watch'], callback);
+  runSequence('clean', 'markdown', ['styles', 'font', 'serve', 'watch'], callback);
 });
 
 gulp.task('default', ['build']);
