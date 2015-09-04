@@ -42,12 +42,20 @@ gulp.task('wiredep', () => {
 });
 
 /**
- * Inject compiled markdown & handle html files
+ * Inject compiled markdown
  */
-gulp.task('html', () => {
-  let markdown = gulp.src(config.src.markdown)
-    .pipe($.markdown());
 
+ gulp.task('markdown', () => {
+  let markdown = gulp.src(config.src.markdown).pipe($.markdown());
+
+  return gulp.src(config.src.html)
+    .pipe($.inject(markdown, {
+     transform: fileContents
+    }))
+    .pipe(gulp.dest(config.src.root));
+ });
+
+gulp.task('html', () => {
   const assets = $.useref.assets({searchPath: ['.', config.src.root]});
 
   return gulp.src(config.src.html)
@@ -55,12 +63,10 @@ gulp.task('html', () => {
     .pipe($.if('*.css', $.minifyCss()))
     .pipe(assets.restore())
     .pipe($.useref())
-    .pipe($.inject(markdown, {
-      transform: fileContents
-    }))
     .pipe(gulp.dest(config.dist))
-    .pipe($.if(browserSync.active, browserSync.stream()));
+    .pipe(browserSync.stream());
 });
+
 
 gulp.task('font', () => {
   return gulp.src(config.src.font)
@@ -93,11 +99,13 @@ gulp.task('serve', function() {
 gulp.task('styles', () => {
   gulp.src(config.src.styles + '/custom.scss')
     .pipe($.sass())
-    .pipe(gulp.dest(config.dist + '/css'));
+    .pipe(gulp.dest(config.dist + '/css'))
+    .pipe(browserSync.stream());
 });
 
 gulp.task('watch', () => {
-  gulp.watch([config.src.markdown, config.src.html, config.src.styles], ['html']);
+  gulp.watch([config.src.html, config.src.styles], ['html']);
+  gulp.watch(config.src.markdown, ['markdown']);
   gulp.watch(config.src.styles + '/**/*.scss', ['styles']);
   gulp.watch('bower.json', ['wiredep']);
 });
@@ -119,7 +127,7 @@ gulp.task('build', (callback) => {
 });
 
 gulp.task('dev', (callback) => {
-  runSequence('clean', ['styles', 'font'], [ 'html', 'serve', 'watch'], callback);
+  runSequence('clean', ['styles', 'font', 'html', 'serve', 'watch'], callback);
 });
 
 gulp.task('default', ['build']);
