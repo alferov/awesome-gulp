@@ -9,17 +9,17 @@ import runSequence from 'run-sequence';
 const $ = gulpLoadPlugins();
 const config = {
   src: {
-    root: './gh-pages/src',
-    styles: './gh-pages/src/sass',
+    root: './docs/src',
+    styles: './docs/src/sass',
     markdown: './README.md',
-    html: './gh-pages/src/index.html',
-    font: './gh-pages/src/font/**/*',
-    img: './gh-pages/src/img/**/*'
+    html: './docs/src/index.html',
+    font: './docs/src/font/**/*',
+    img: './docs/src/img/**/*'
   },
-  dist: './gh-pages/build',
+  dist: './docs/build',
   browserSync: {
     port: 3000,
-    baseDir: ['./gh-pages/src', './gh-pages/build']
+    baseDir: ['./docs/src', './docs/build']
   }
 };
 
@@ -112,7 +112,7 @@ gulp.task('watch', () => {
 /**
  * Publish to gh-pages
  */
-gulp.task('gh-pages', ['build'], () => {
+gulp.task('gh-pages', () => {
   return gulp.src(config.dist + '/**/*')
     .pipe($.ghPages());
 });

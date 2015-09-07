@@ -1,4 +1,4 @@
 node_modules/
-gh-pages/build
+docs/build
 .publish
 bower_components
