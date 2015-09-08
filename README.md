@@ -149,7 +149,7 @@
 * [gulp-css-base64](https://github.com/zckrs/gulp-css-base64) - Transform all resources found (those within a url() declaration) in CSS files into base64-encoded data URI strings.
 * [gulp-svg2png](https://github.com/akoenig/gulp-svg2png) - Convert SVGs to PNGs.
 * [gulp-responsive](https://github.com/mahnunchik/gulp-responsive) - Generate images at different sizes.
-* [gulp-svg-sprites](https://github.com/shakyShane/gulp-svg-sprites) - Create SVG sprites or compile to symbols.
+* [gulp-svgstore](https://github.com/w0rm/gulp-svgstore) - Combine svg files into one with <symbol> elements.
 
 ### Injecting Assets
 * [gulp-useref](https://github.com/jonkemp/gulp-useref) - Parse build blocks in HTML files to replace references to non-optimized scripts or stylesheets.
