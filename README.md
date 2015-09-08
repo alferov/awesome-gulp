@@ -150,6 +150,7 @@
 * [gulp-svg2png](https://github.com/akoenig/gulp-svg2png) - Convert SVGs to PNGs.
 * [gulp-responsive](https://github.com/mahnunchik/gulp-responsive) - Generate images at different sizes.
 * [gulp-svgstore](https://github.com/w0rm/gulp-svgstore) - Combine svg files into one with <symbol> elements.
+* [gulp-svgmin](https://github.com/ben-eb/gulp-svgmin) - Minify SVG files with gulp.
 
 ### Injecting Assets
 * [gulp-useref](https://github.com/jonkemp/gulp-useref) - Parse build blocks in HTML files to replace references to non-optimized scripts or stylesheets.
