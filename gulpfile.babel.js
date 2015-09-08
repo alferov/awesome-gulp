@@ -56,7 +56,7 @@ gulp.task('wiredep', () => {
  });
 
 gulp.task('html', () => {
-  const assets = $.useref.assets({searchPath: ['.', config.src.root]});
+  const assets = $.useref.assets({searchPath: ['.', config.dist]});
 
   return gulp.src(config.src.html)
     .pipe(assets)
@@ -122,7 +122,7 @@ gulp.task('deploy', (callback) => {
 });
 
 gulp.task('build', (callback) => {
-  runSequence('clean', 'markdown', ['styles','font', 'img', 'html'],  callback);
+  runSequence('clean', 'markdown', ['styles','font', 'img'], 'html',  callback);
 });
 
 gulp.task('dev', (callback) => {
