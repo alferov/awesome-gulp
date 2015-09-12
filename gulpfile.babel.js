@@ -79,7 +79,7 @@ gulp.task('img', () => {
 
 gulp.task('clean', del.bind(null, [config.dist]));
 
-gulp.task('serve', function() {
+gulp.task('serve:dev', function() {
   browserSync({
     port: config.browserSync.port,
     server: {
@@ -88,6 +88,18 @@ gulp.task('serve', function() {
         '/bower_components': 'bower_components',
         '/img': 'gh-pages/src/img'
       }
+    },
+    logConnections: true,
+    logFileChanges: true,
+    notify: true
+  });
+});
+
+gulp.task('serve:dist', function() {
+  browserSync({
+    port: config.browserSync.port,
+    server: {
+      baseDir: ['./docs/build'],
     },
     logConnections: true,
     logFileChanges: true,
@@ -126,7 +138,14 @@ gulp.task('build', (callback) => {
 });
 
 gulp.task('dev', (callback) => {
-  runSequence('clean', 'markdown', ['styles', 'font', 'serve', 'watch'], callback);
+  runSequence('clean', 'markdown', ['styles', 'font', 'serve:dev', 'watch'], callback);
+});
+
+/*
+ * Check production-ready code before deploying it to gh-pages
+ */
+gulp.task('dev:dist', (callback) => {
+  runSequence('build', 'serve:dist', callback);
 });
 
 gulp.task('default', ['build']);
