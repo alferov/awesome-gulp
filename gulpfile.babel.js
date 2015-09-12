@@ -11,7 +11,7 @@ const config = {
   src: {
     root: './docs/src',
     styles: './docs/src/sass',
-    markdown: './README.md',
+    markdown: './readme.md',
     html: './docs/src/index.html',
     font: './docs/src/font/**/*',
     img: './docs/src/img/**/*'

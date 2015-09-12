@@ -5,7 +5,7 @@
 *Looking for something else? Take a look at other [awesome lists](https://github.com/sindresorhus/awesome).*
 
 ## Contribution
-:octocat: All contributions welcome. Feel free to contribute ([guidelines](CONTRIBUTING.md)).
+:octocat: All contributions welcome. Feel free to contribute ([guidelines](contributing.md)).
 
 ## Contents
 - [Resources](#resources)
