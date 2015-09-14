@@ -16,6 +16,7 @@
     "babel-core": "^5.5.6",
     "browser-sync": "^2.8.2",
     "del": "^1.2.1",
+    "eslint": "^1.4.1",
     "gulp": "^3.9.0",
     "gulp-gh-pages": "^0.5.2",
     "gulp-if": "^1.2.5",
@@ -25,6 +26,7 @@
     "gulp-minify-css": "^1.2.1",
     "gulp-sass": "^2.0.4",
     "gulp-useref": "^1.3.0",
+    "install": "^0.1.8",
     "run-sequence": "^1.1.2",
     "wiredep": "^3.0.0-beta"
   }

@@ -1,4 +1,3 @@
-'use strict';
 import gulp from 'gulp';
 import gulpLoadPlugins from 'gulp-load-plugins';
 import del from 'del';
@@ -99,7 +98,7 @@ gulp.task('serve:dist', function() {
   browserSync({
     port: config.browserSync.port,
     server: {
-      baseDir: ['./docs/build'],
+      baseDir: ['./docs/build']
     },
     logConnections: true,
     logFileChanges: true,
