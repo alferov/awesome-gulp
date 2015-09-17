@@ -217,6 +217,7 @@
 * [gulp-file-include](https://github.com/coderhaoxin/gulp-file-include) - Include files with gulp.
 * [gulp-zip](https://github.com/sindresorhus/gulp-zip) - ZIP compress files.
 * [gulp-git](https://github.com/stevelacy/gulp-git) - Run Git commands with gulp.
+* [gulp-filter](https://github.com/sindresorhus/gulp-filter) - Filter files in a vinyl stream using globbing.
 
 ## Scaffolding
 ### Boilerplates
