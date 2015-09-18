@@ -22,11 +22,11 @@
     - [Gulp with Ember](#gulp-with-ember)
   - [Miscellaneous Resources](#miscellaneous-resources)
 - [Plugins](#plugins)
-  - [Compilation](#compilation)
-  - [Transpilation](#transpilation)
-  - [Concatenation](#concatenation)
-  - [Minification](#minification)
-  - [Optimization](#optimization)
+  - [Compiling](#compiling)
+  - [Transpiling](#transpiling)
+  - [Concatenating](#concatenating)
+  - [Minifying](#minifying)
+  - [Optimizing](#optimizing)
   - [Injecting Assets](#injecting-assets)
   - [Templating](#templating)
   - [Linting](#linting)
@@ -104,7 +104,7 @@
 * [Playground for Gulp Recipes](https://github.com/johnpapa/gulp-patterns)
 
 ## Plugins
-### Compilation
+### Compiling
 * [gulp-sass](https://github.com/dlmanning/gulp-sass) - Sass → CSS with [libsass](https://github.com/sass/libsass).
 * [gulp-ruby-sass](https://github.com/sindresorhus/gulp-ruby-sass) - Sass → CSS with Ruby Sass.
 * [gulp-compass](https://github.com/appleboy/gulp-compass) - Sass → CSS with Ruby Sass & Compass.
@@ -116,7 +116,7 @@
 * [gulp-react](https://github.com/sindresorhus/gulp-react) - Facebook [React](https://github.com/facebook/react) JSX templates → JavaScript.
 * [webpack-stream](https://github.com/shama/webpack-stream) - Run [webpack](https://github.com/webpack/webpack) as a stream to conveniently integrate with gulp.
 
-### Transpilation
+### Transpiling
 * [gulp-babel](https://github.com/babel/gulp-babel) - ES6 → ES5 with [babel](https://github.com/babel/babel).
 * [gulp-traceur](https://github.com/sindresorhus/gulp-traceur) - ES6 → ES5 using [Traceur](https://github.com/google/traceur-compiler).
 * [gulp-regenerator](https://github.com/sindresorhus/gulp-regenerator) - ES6 → ES5 with [Regenerator](https://github.com/facebook/regenerator).
@@ -124,10 +124,10 @@
 * [gulp-myth](https://github.com/sindresorhus/gulp-myth) - [Myth](https://github.com/segmentio/myth) - a polyfill for future versions of the CSS spec.
 * [gulp-cssnext](https://github.com/cssnext/gulp-cssnext) - Use tomorrow's CSS syntax, today, using [cssnext](https://github.com/cssnext/cssnext).
 
-### Concatenation
-* [gulp-concat](https://github.com/wearefractal/gulp-concat) - Concatenate files.
+### Concatenating
+* gulp-concat](https://github.com/wearefractal/gulp-concat) - Concatenate files.
 
-### Minification
+### Minifying
 * [gulp-minify-css](https://github.com/murphydanger/gulp-minify-css) - Minify CSS with [clean-css](https://github.com/jakubpawlowicz/clean-css).
 * [gulp-csso](https://github.com/ben-eb/gulp-csso) - Minify CSS with [CSSO](https://github.com/css/csso).
 * [gulp-uglify](https://github.com/terinjokes/gulp-uglify) - Minify JavaScript with [UglifyJS2](https://github.com/mishoo/UglifyJS2).
@@ -135,7 +135,7 @@
 * [gulp-minify-html](https://github.com/murphydanger/gulp-minify-html) - Minify HTML with
  [Minimize](https://github.com/Moveo/minimize).
 
-### Optimization
+### Optimizing
 * [gulp-uncss](https://github.com/ben-eb/gulp-uncss) - Remove unused CSS selectors with [UnCSS](https://github.com/giakki/uncss).
 * [gulp-imagemin](https://github.com/sindresorhus/gulp-imagemin) - Minify PNG, JPEG, GIF and SVG images with [imagemin](https://github.com/imagemin/imagemin).
 * [gulp-css-base64](https://github.com/zckrs/gulp-css-base64) - Transform all resources found (those within a url() declaration) in CSS files into base64-encoded data URI strings.
