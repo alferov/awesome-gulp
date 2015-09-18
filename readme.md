@@ -134,15 +134,15 @@
 * [gulp-htmlmin](https://github.com/jonschlinkert/gulp-htmlmin) - Minify HTML with [html-minifier](https://github.com/kangax/html-minifier).
 * [gulp-minify-html](https://github.com/murphydanger/gulp-minify-html) - Minify HTML with
  [Minimize](https://github.com/Moveo/minimize).
+* [gulp-imagemin](https://github.com/sindresorhus/gulp-imagemin) - Minify PNG, JPEG, GIF and SVG images with [imagemin](https://github.com/imagemin/imagemin).
+* [gulp-svgmin](https://github.com/ben-eb/gulp-svgmin) - Minify SVG files with gulp.
 
 ### Optimizing
 * [gulp-uncss](https://github.com/ben-eb/gulp-uncss) - Remove unused CSS selectors with [UnCSS](https://github.com/giakki/uncss).
-* [gulp-imagemin](https://github.com/sindresorhus/gulp-imagemin) - Minify PNG, JPEG, GIF and SVG images with [imagemin](https://github.com/imagemin/imagemin).
 * [gulp-css-base64](https://github.com/zckrs/gulp-css-base64) - Transform all resources found (those within a url() declaration) in CSS files into base64-encoded data URI strings.
 * [gulp-svg2png](https://github.com/akoenig/gulp-svg2png) - Convert SVGs to PNGs.
 * [gulp-responsive](https://github.com/mahnunchik/gulp-responsive) - Generate images at different sizes.
 * [gulp-svgstore](https://github.com/w0rm/gulp-svgstore) - Combine svg files into one with <symbol> elements.
-* [gulp-svgmin](https://github.com/ben-eb/gulp-svgmin) - Minify SVG files with gulp.
 * [gulp-iconfont](https://github.com/nfroidure/gulp-iconfont) - Create icon fonts from several SVG icons.
 
 ### Injecting Assets
