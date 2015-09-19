@@ -68,11 +68,11 @@
 </ul>
 </li>
 <li><a href="#plugins">Plugins</a><ul>
-<li><a href="#compilation">Compilation</a></li>
-<li><a href="#transpilation">Transpilation</a></li>
-<li><a href="#concatenation">Concatenation</a></li>
-<li><a href="#minification">Minification</a></li>
-<li><a href="#optimization">Optimization</a></li>
+<li><a href="#compiling">Compiling</a></li>
+<li><a href="#transpiling">Transpiling</a></li>
+<li><a href="#concatenating">Concatenating</a></li>
+<li><a href="#minifying">Minifying</a></li>
+<li><a href="#optimizing">Optimizing</a></li>
 <li><a href="#injecting-assets">Injecting Assets</a></li>
 <li><a href="#templating">Templating</a></li>
 <li><a href="#linting">Linting</a></li>
@@ -165,7 +165,7 @@
 <li><a href="https://github.com/johnpapa/gulp-patterns">Playground for Gulp Recipes</a></li>
 </ul>
 <h2 id="plugins">Plugins</h2>
-<h3 id="compilation">Compilation</h3>
+<h3 id="compiling">Compiling</h3>
 <ul>
 <li><a href="https://github.com/dlmanning/gulp-sass">gulp-sass</a> - Sass → CSS with <a href="https://github.com/sass/libsass">libsass</a>.</li>
 <li><a href="https://github.com/sindresorhus/gulp-ruby-sass">gulp-ruby-sass</a> - Sass → CSS with Ruby Sass.</li>
@@ -178,7 +178,7 @@
 <li><a href="https://github.com/sindresorhus/gulp-react">gulp-react</a> - Facebook <a href="https://github.com/facebook/react">React</a> JSX templates → JavaScript.</li>
 <li><a href="https://github.com/shama/webpack-stream">webpack-stream</a> - Run <a href="https://github.com/webpack/webpack">webpack</a> as a stream to conveniently integrate with gulp.</li>
 </ul>
-<h3 id="transpilation">Transpilation</h3>
+<h3 id="transpiling">Transpiling</h3>
 <ul>
 <li><a href="https://github.com/babel/gulp-babel">gulp-babel</a> - ES6 → ES5 with <a href="https://github.com/babel/babel">babel</a>.</li>
 <li><a href="https://github.com/sindresorhus/gulp-traceur">gulp-traceur</a> - ES6 → ES5 using <a href="https://github.com/google/traceur-compiler">Traceur</a>.</li>
@@ -187,11 +187,11 @@
 <li><a href="https://github.com/sindresorhus/gulp-myth">gulp-myth</a> - <a href="https://github.com/segmentio/myth">Myth</a> - a polyfill for future versions of the CSS spec.</li>
 <li><a href="https://github.com/cssnext/gulp-cssnext">gulp-cssnext</a> - Use tomorrow&#39;s CSS syntax, today, using <a href="https://github.com/cssnext/cssnext">cssnext</a>.</li>
 </ul>
-<h3 id="concatenation">Concatenation</h3>
+<h3 id="concatenating">Concatenating</h3>
 <ul>
-<li><a href="https://github.com/wearefractal/gulp-concat">gulp-concat</a> - Concatenate files.</li>
+<li>gulp-concat](<a href="https://github.com/wearefractal/gulp-concat">https://github.com/wearefractal/gulp-concat</a>) - Concatenate files.</li>
 </ul>
-<h3 id="minification">Minification</h3>
+<h3 id="minifying">Minifying</h3>
 <ul>
 <li><a href="https://github.com/murphydanger/gulp-minify-css">gulp-minify-css</a> - Minify CSS with <a href="https://github.com/jakubpawlowicz/clean-css">clean-css</a>.</li>
 <li><a href="https://github.com/ben-eb/gulp-csso">gulp-csso</a> - Minify CSS with <a href="https://github.com/css/csso">CSSO</a>.</li>
@@ -199,16 +199,16 @@
 <li><a href="https://github.com/jonschlinkert/gulp-htmlmin">gulp-htmlmin</a> - Minify HTML with <a href="https://github.com/kangax/html-minifier">html-minifier</a>.</li>
 <li><a href="https://github.com/murphydanger/gulp-minify-html">gulp-minify-html</a> - Minify HTML with
 <a href="https://github.com/Moveo/minimize">Minimize</a>.</li>
+<li><a href="https://github.com/sindresorhus/gulp-imagemin">gulp-imagemin</a> - Minify PNG, JPEG, GIF and SVG images with <a href="https://github.com/imagemin/imagemin">imagemin</a>.</li>
+<li><a href="https://github.com/ben-eb/gulp-svgmin">gulp-svgmin</a> - Minify SVG files with gulp.</li>
 </ul>
-<h3 id="optimization">Optimization</h3>
+<h3 id="optimizing">Optimizing</h3>
 <ul>
 <li><a href="https://github.com/ben-eb/gulp-uncss">gulp-uncss</a> - Remove unused CSS selectors with <a href="https://github.com/giakki/uncss">UnCSS</a>.</li>
-<li><a href="https://github.com/sindresorhus/gulp-imagemin">gulp-imagemin</a> - Minify PNG, JPEG, GIF and SVG images with <a href="https://github.com/imagemin/imagemin">imagemin</a>.</li>
 <li><a href="https://github.com/zckrs/gulp-css-base64">gulp-css-base64</a> - Transform all resources found (those within a url() declaration) in CSS files into base64-encoded data URI strings.</li>
 <li><a href="https://github.com/akoenig/gulp-svg2png">gulp-svg2png</a> - Convert SVGs to PNGs.</li>
 <li><a href="https://github.com/mahnunchik/gulp-responsive">gulp-responsive</a> - Generate images at different sizes.</li>
 <li><a href="https://github.com/w0rm/gulp-svgstore">gulp-svgstore</a> - Combine svg files into one with <symbol> elements.</li>
-<li><a href="https://github.com/ben-eb/gulp-svgmin">gulp-svgmin</a> - Minify SVG files with gulp.</li>
 <li><a href="https://github.com/nfroidure/gulp-iconfont">gulp-iconfont</a> - Create icon fonts from several SVG icons.</li>
 </ul>
 <h3 id="injecting-assets">Injecting Assets</h3>
@@ -327,6 +327,7 @@
 <ul>
 <li><a href="https://github.com/laravel/elixir">elixir</a> - A clean, fluent API for defining basic gulp tasks for your Laravel applications.</li>
 <li><a href="https://github.com/sindresorhus/gulp-app">gulp-app</a> - gulp as an app (OS X).</li>
+<li><a href="https://github.com/Lostmyname/lmn-gulp-tasks">lmn-gulp-tasks</a> - Example of gulp tasks unit testing. </li>
 </ul>
 <h2 id="license">License</h2>
 <p><a href="http://creativecommons.org/publicdomain/zero/1.0/"><img src="http://i.creativecommons.org/p/zero/1.0/88x31.png" alt="CC0"></a></p>
