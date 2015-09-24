@@ -125,7 +125,7 @@
 * [gulp-cssnext](https://github.com/cssnext/gulp-cssnext) - Use tomorrow's CSS syntax, today, using [cssnext](https://github.com/cssnext/cssnext).
 
 ### Concatenating
-* gulp-concat](https://github.com/wearefractal/gulp-concat) - Concatenate files.
+* [gulp-concat](https://github.com/wearefractal/gulp-concat) - Concatenate files.
 
 ### Minifying
 * [gulp-minify-css](https://github.com/murphydanger/gulp-minify-css) - Minify CSS with [clean-css](https://github.com/jakubpawlowicz/clean-css).
@@ -249,7 +249,7 @@
 ## Miscellaneous
 * [elixir](https://github.com/laravel/elixir) - A clean, fluent API for defining basic gulp tasks for your Laravel applications.
 * [gulp-app](https://github.com/sindresorhus/gulp-app) - gulp as an app (OS X).
-* [lmn-gulp-tasks](https://github.com/Lostmyname/lmn-gulp-tasks) - Example of gulp tasks unit testing. 
+* [lmn-gulp-tasks](https://github.com/Lostmyname/lmn-gulp-tasks) - Example of gulp tasks unit testing.
 
 ## License
 [![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
