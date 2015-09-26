@@ -8,17 +8,17 @@ import runSequence from 'run-sequence';
 const $ = gulpLoadPlugins();
 const config = {
   src: {
-    root: './docs/src',
-    styles: './docs/src/sass',
-    markdown: './readme.md',
-    html: './docs/src/index.html',
-    font: './docs/src/font/**/*',
-    img: './docs/src/img/**/*'
+    root: './src',
+    styles: './src/sass',
+    markdown: '../readme.md',
+    html: './src/index.html',
+    font: './src/font/**/*',
+    img: './src/img/**/*'
   },
-  dist: './docs/build',
+  dist: './build',
   browserSync: {
     port: 3000,
-    baseDir: ['./docs/src', './docs/build']
+    baseDir: ['./src', './build']
   }
 };
 
@@ -29,7 +29,7 @@ function fileContents(filePath, file) {
   return file.contents.toString();
 }
 
-/*
+/**
  * Add Bower dependencies to the source code automatically
  */
 gulp.task('wiredep', () => {
@@ -43,7 +43,6 @@ gulp.task('wiredep', () => {
 /**
  * Inject compiled markdown
  */
-
  gulp.task('markdown', () => {
   let markdown = gulp.src(config.src.markdown).pipe($.markdown());
 
@@ -54,6 +53,9 @@ gulp.task('wiredep', () => {
     .pipe(gulp.dest(config.src.root));
  });
 
+/**
+* Assets related tasks
+*/
 gulp.task('html', () => {
   const assets = $.useref.assets({searchPath: ['.', config.dist]});
 
@@ -76,16 +78,26 @@ gulp.task('img', () => {
     .pipe(gulp.dest(config.dist + '/img'));
 });
 
+gulp.task('styles', () => {
+  gulp.src(config.src.styles + '/custom.scss')
+    .pipe($.sass())
+    .pipe(gulp.dest(config.dist + '/css'))
+    .pipe(browserSync.stream());
+});
+
 gulp.task('clean', del.bind(null, [config.dist]));
 
-gulp.task('serve:dev', function() {
+/**
+ * Serve assets
+ */
+gulp.task('serve:dev', () => {
   browserSync({
     port: config.browserSync.port,
     server: {
       baseDir: config.browserSync.baseDir,
       routes: {
         '/bower_components': 'bower_components',
-        '/img': 'gh-pages/src/img'
+        '/img': 'src/img'
       }
     },
     logConnections: true,
@@ -94,23 +106,16 @@ gulp.task('serve:dev', function() {
   });
 });
 
-gulp.task('serve:dist', function() {
+gulp.task('serve:dist', () => {
   browserSync({
     port: config.browserSync.port,
     server: {
-      baseDir: ['./docs/build']
+      baseDir: ['./build']
     },
     logConnections: true,
     logFileChanges: true,
     notify: true
   });
-});
-
-gulp.task('styles', () => {
-  gulp.src(config.src.styles + '/custom.scss')
-    .pipe($.sass())
-    .pipe(gulp.dest(config.dist + '/css'))
-    .pipe(browserSync.stream());
 });
 
 gulp.task('watch', () => {
@@ -132,15 +137,18 @@ gulp.task('deploy', (callback) => {
   runSequence('build', 'gh-pages', callback);
 });
 
+/**
+ * Build tasks
+ */
 gulp.task('build', (callback) => {
   runSequence('clean', 'markdown', ['styles','font', 'img'], 'html',  callback);
 });
 
 gulp.task('dev', (callback) => {
-  runSequence('clean', 'markdown', ['styles', 'font', 'serve:dev', 'watch'], callback);
+  runSequence('clean', 'markdown', ['styles', 'font'], 'serve:dev', 'watch', callback);
 });
 
-/*
+/**
  * Check production-ready code before deploying it to gh-pages
  */
 gulp.task('dev:dist', (callback) => {

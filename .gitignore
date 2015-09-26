@@ -1,4 +1,4 @@
-node_modules/
+docs/node_modules/
+docs/bower_components/
 docs/build
 .publish
-bower_components
