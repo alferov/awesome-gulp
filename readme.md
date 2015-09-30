@@ -198,6 +198,7 @@
 * [gulp-protractor](https://github.com/mllrsohn/gulp-protractor) - gulp wrapper for [Protractor](https://github.com/angular/protractor) tests.
 * [gulp-coverage](https://github.com/dylanb/gulp-coverage) - Coverage reporting for Node.js that is independent of the test runner.
 * [gulp-karma](https://github.com/karma-runner/gulp-karma) - Karma test runner for gulp.
+* [gulp-ava](https://github.com/sindresorhus/gulp-ava)-Run [AVA](https://github.com/sindresorhus/ava) tests with gulp.
 
 ### Miscellaneous Plugins
 * [gulp-util](https://github.com/gulpjs/gulp-util) - Set of useful utilities.
