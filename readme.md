@@ -173,7 +173,7 @@
 
 ### Live Reloading
 * [browser-sync](https://github.com/BrowserSync/browser-sync) - Keep multiple browsers & devices in sync when building websites ([recipes](https://github.com/BrowserSync/gulp-browser-sync)).
-* [gulp-livereload](https://github.com/vohof/gulp-livereload) - gulp plugin for livereload.
+* [gulp-livereload](https://github.com/vohof/gulp-livereload) - Gulp plugin for livereload.
 
 ### Caching
 * [gulp-changed](https://github.com/sindresorhus/gulp-changed) - Only pass through changed files.
@@ -195,7 +195,7 @@
 ### Testing
 * [gulp-mocha](https://github.com/sindresorhus/gulp-mocha) - Run [Mocha](https://github.com/mochajs/mocha) tests.
 * [gulp-jasmine](https://github.com/sindresorhus/gulp-jasmine) - Run [Jasmine 2](https://github.com/jasmine/jasmine) tests in Node.js.
-* [gulp-protractor](https://github.com/mllrsohn/gulp-protractor) - gulp wrapper for [Protractor](https://github.com/angular/protractor) tests.
+* [gulp-protractor](https://github.com/mllrsohn/gulp-protractor) - Gulp wrapper for [Protractor](https://github.com/angular/protractor) tests.
 * [gulp-coverage](https://github.com/dylanb/gulp-coverage) - Coverage reporting for Node.js that is independent of the test runner.
 * [gulp-karma](https://github.com/karma-runner/gulp-karma) - Karma test runner for gulp.
 * [gulp-ava](https://github.com/sindresorhus/gulp-ava)- Run [AVA](https://github.com/sindresorhus/ava) tests with gulp.
@@ -250,7 +250,7 @@
 
 ## Miscellaneous
 * [elixir](https://github.com/laravel/elixir) - A clean, fluent API for defining basic gulp tasks for your Laravel applications.
-* [gulp-app](https://github.com/sindresorhus/gulp-app) - gulp as an app (OS X).
+* [gulp-app](https://github.com/sindresorhus/gulp-app) - Gulp as an app (OS X).
 * [lmn-gulp-tasks](https://github.com/Lostmyname/lmn-gulp-tasks) - Example of gulp tasks unit testing.
 
 ## License
