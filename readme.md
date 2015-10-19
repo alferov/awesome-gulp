@@ -14,6 +14,7 @@
   - [Community](#community)
   - [Tutorials](#tutorials)
     - [Gulp Tutorials](#gulp-tutorials)
+    - [Gulp 4 Tutorials](#gulp-4-tutorials)
     - [Gulp with Browserify](#gulp-with-browserify)
     - [Gulp with Angular](#gulp-with-browserify)
     - [Gulp with Angular and Browserify](#gulp-with-angular-and-browserify)
@@ -70,11 +71,13 @@
 * [Using Gulp to Inject Scripts and Styles Tags Directly into Your HTML](http://blog.icanmakethiswork.io/2015/02/using-gulp-in-asp-net-instead-of-web-optimization.html)
 * [5 Lessons Learned Using Gulp.js](http://denbuzze.com/post/5-lessons-learned-using-gulpjs/)
 * [Automating Linkage: How I Learned to Stop Worrying and Love the Build](http://lab.brightnorth.co.uk/2014/08/13/automating-linkage-how-i-learned-to-stop-worrying-and-love-the-build/)
-* [Migrating to Gulp 4 by Example](https://blog.wearewizards.io/migrating-to-gulp-4-by-example)
 * [Setting Up Gulp Tasks for the First Time](https://www.codementor.io/development-process/tutorial/how-to-set-up-gulp-beginner-guide#/)
 * [Why You Shouldn’t Create a Gulp Plugin (or, How to Stop Worrying and Learn to Love Existing Node Packages)](http://blog.overzealous.com/post/74121048393/why-you-shouldnt-create-a-gulp-plugin-or-how-to)
 * [6 Gulp Best Practices You Can Use Today to Radically Improve Your Development Experience](http://blog.rangle.io/angular-gulp-bestpractices/)
 * [Gulp for Beginners](https://css-tricks.com/gulp-for-beginners/)
+
+#### Gulp 4 Tutorials
+* [Migrating to Gulp 4 by Example](https://blog.wearewizards.io/migrating-to-gulp-4-by-example)
 * [Gulp 4: The new task execution system - gulp.parallel and gulp.series](http://fettblog.eu/gulp-4-parallel-and-series/)
 
 #### Gulp with Browserify
