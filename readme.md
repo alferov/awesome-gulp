@@ -173,7 +173,8 @@
 * [gulp-coffeelint](https://github.com/janraasch/gulp-coffeelint) - A style checker that helps keep [CoffeeScript](https://github.com/jashkenas/coffeescript) code clean.
 * [gulp-tslint](https://github.com/panuhorsmalahti/gulp-tslint) - [TypeScript](https://github.com/Microsoft/TypeScript) linter plugin for gulp.
 * [gulp-eslint](https://github.com/adametry/gulp-eslint) - Identify and report on patterns found in ECMAScript/JavaScript code.
-* [gulp-w3cjs](https://github.com/callumacrae/gulp-w3cjs) - Validate your HTML with [w3cjs](https://github.com/thomasdavis/w3cjs).
+* [gulp-w3cjs](https://github.com/callumacrae/gulp-w3cjs) - Validate HTML with [w3cjs](https://github.com/thomasdavis/w3cjs).
+* [gulp-lesshint](https://github.com/lesshint/gulp-lesshint) - Lint less files with [lesshint](https://github.com/lesshint/lesshint).
 
 ### Live Reloading
 * [browser-sync](https://github.com/BrowserSync/browser-sync) - Keep multiple browsers & devices in sync when building websites ([recipes](https://github.com/BrowserSync/gulp-browser-sync)).
