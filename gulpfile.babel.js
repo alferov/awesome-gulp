@@ -8,17 +8,17 @@ import runSequence from 'run-sequence';
 const $ = gulpLoadPlugins();
 const config = {
   src: {
-    root: './src',
-    styles: './src/sass',
-    markdown: '../readme.md',
-    html: './src/index.html',
-    font: './src/font/**/*',
-    img: './src/img/**/*'
+    root: './docs/src',
+    styles: './docs/src/sass',
+    markdown: './readme.md',
+    html: './docs/src/index.html',
+    font: './docs/src/font/**/*',
+    img: './docs/src/img/**/*'
   },
   dist: './build',
   browserSync: {
     port: 3000,
-    baseDir: ['./src', './build']
+    baseDir: ['./docs/src', './docs/build']
   }
 };
 
@@ -96,8 +96,10 @@ gulp.task('serve:dev', () => {
     server: {
       baseDir: config.browserSync.baseDir,
       routes: {
-        '/bower_components': 'bower_components',
-        '/img': 'src/img'
+        '/bower_components': './bower_components',
+        '/img': './docs/src/img',
+        '/css': './build/css',
+        '/font': './build/font'
       }
     },
     logConnections: true,
