@@ -64,7 +64,7 @@
 ### Tutorials
 #### Gulp Tutorials
 * [Building with Gulp](http://www.smashingmagazine.com/2014/06/11/building-with-gulp/)
-* [Automate Your Tasks Easily with Gulp.js](https://scotch.io/tutorials/automate-you-tasks-easily-with-gulp-js)
+* [Automate Your Tasks Easily with Gulp.js](https://scotch.io/tutorials/automate-your-tasks-easily-with-gulp-js)
 * [Gulp - The Vision, History, and Future of the Project](https://medium.com/@contrahacks/gulp-3828e8126466)
 * [Introduction to Gulp.js](http://stefanimhoff.de/tag/gulp/)
 * [Video: Learning Gulp](http://leveluptuts.com/tutorials/learning-gulp)
