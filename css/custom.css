@@ -58,8 +58,7 @@ blockquote {
   margin: 0;
   padding: 0 15px;
   border-left: 4px solid #ddd; }
-  blockquote:before,
-  blockquote:after {
+  blockquote:before, blockquote:after {
     content: "";
     margin: 0; }
 
