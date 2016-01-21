@@ -43,7 +43,7 @@ gulp.task('wiredep', () => {
 /**
  * Inject compiled markdown
  */
- gulp.task('markdown', () => {
+gulp.task('markdown', () => {
   let markdown = gulp.src(config.src.markdown).pipe($.markdown());
 
   return gulp.src(config.src.html)
@@ -51,7 +51,7 @@ gulp.task('wiredep', () => {
      transform: fileContents
     }))
     .pipe(gulp.dest(config.src.root));
- });
+});
 
 /**
 * Assets related tasks
@@ -135,26 +135,26 @@ gulp.task('gh-pages', () => {
     .pipe($.ghPages());
 });
 
-gulp.task('deploy', (callback) => {
-  runSequence('build', 'gh-pages', callback);
+gulp.task('deploy', cb => {
+  runSequence('build', 'gh-pages', cb);
 });
 
 /**
  * Build tasks
  */
-gulp.task('build', (callback) => {
-  runSequence('clean', 'markdown', ['styles','font', 'img'], 'html',  callback);
+gulp.task('build', cb => {
+  runSequence('clean', 'markdown', ['styles','font', 'img'], 'html',  cb);
 });
 
-gulp.task('dev', (callback) => {
-  runSequence('clean', 'markdown', ['styles', 'font'], 'serve:dev', 'watch', callback);
+gulp.task('dev', cb => {
+  runSequence('clean', 'markdown', ['styles', 'font'], 'serve:dev', 'watch', cb);
 });
 
 /**
  * Check production-ready code before deploying it to gh-pages
  */
-gulp.task('dev:dist', (callback) => {
-  runSequence('build', 'serve:dist', callback);
+gulp.task('dev:dist', cb => {
+  runSequence('build', 'serve:dist', cb);
 });
 
 gulp.task('default', ['build']);
