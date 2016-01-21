@@ -63,12 +63,12 @@
 
 ### Tutorials
 #### Gulp Tutorials
-* [Building with Gulp](http://www.smashingmagazine.com/2014/06/11/building-with-gulp/)
+* [Building with Gulp](https://www.smashingmagazine.com/2014/06/building-with-gulp/)
 * [Automate Your Tasks Easily with Gulp.js](https://scotch.io/tutorials/automate-your-tasks-easily-with-gulp-js)
 * [Gulp - The Vision, History, and Future of the Project](https://medium.com/@contrahacks/gulp-3828e8126466)
 * [Introduction to Gulp.js](http://stefanimhoff.de/tag/gulp/)
 * [Video: Learning Gulp](http://leveluptuts.com/tutorials/learning-gulp)
-* [Using Gulp to Inject Scripts and Styles Tags Directly into Your HTML](http://blog.icanmakethiswork.io/2015/02/using-gulp-in-asp-net-instead-of-web-optimization.html)
+* [Using Gulp to Inject Scripts and Styles Tags Directly into Your HTML](http://blog.johnnyreilly.com/2015/02/using-gulp-in-asp-net-instead-of-web-optimization.html)
 * [5 Lessons Learned Using Gulp.js](http://denbuzze.com/post/5-lessons-learned-using-gulpjs/)
 * [Automating Linkage: How I Learned to Stop Worrying and Love the Build](http://lab.brightnorth.co.uk/2014/08/13/automating-linkage-how-i-learned-to-stop-worrying-and-love-the-build/)
 * [Setting Up Gulp Tasks for the First Time](https://www.codementor.io/development-process/tutorial/how-to-set-up-gulp-beginner-guide#/)
@@ -82,7 +82,7 @@
 
 #### Gulp with Browserify
 * [Gulp + Browserify, the Gulp-y Way](https://medium.com/@sogko/gulp-browserify-the-gulp-y-way-bb359b3f9623)
-* [Gulp + Browserify](http://viget.com/extend/gulp-browserify-starter-faq)
+* [Gulp + Browserify](https://viget.com/extend/gulp-browserify-starter-faq)
 * [Fast Browserify Builds with Watchify](https://github.com/gulpjs/gulp/blob/master/docs/recipes/fast-browserify-builds-with-watchify.md)
 
 #### Gulp with Angular
@@ -115,7 +115,7 @@
 * [gulp-less](https://github.com/plus3network/gulp-less) - [Less](https://github.com/less/less.js) → CSS.
 * [gulp-stylus](https://github.com/stevelacy/gulp-stylus) - [Stylus](https://github.com/stylus/stylus) → CSS.
 * [gulp-postcss](https://github.com/postcss/gulp-postcss) - Pipe CSS through [PostCSS](https://github.com/postcss/postcss) processors with a single parse.
-* [gulp-coffee](https://github.com/wearefractal/gulp-coffee) - [Coffeescript](https://github.com/jashkenas/coffeescript) → JavaScript.
+* [gulp-coffee](https://github.com/contra/gulp-coffee) - [Coffeescript](https://github.com/jashkenas/coffeescript) → JavaScript.
 * [gulp-typescript](https://github.com/ivogabe/gulp-typescript) - [TypeScript](https://github.com/Microsoft/TypeScript) → JavaScript.
 * [gulp-react](https://github.com/sindresorhus/gulp-react) - Facebook [React](https://github.com/facebook/react) JSX templates → JavaScript.
 * [webpack-stream](https://github.com/shama/webpack-stream) - Run [webpack](https://github.com/webpack/webpack) as a stream to conveniently integrate with gulp.
@@ -126,10 +126,10 @@
 * [gulp-regenerator](https://github.com/sindresorhus/gulp-regenerator) - ES6 → ES5 with [Regenerator](https://github.com/facebook/regenerator).
 * [gulp-es6-transpiler](https://github.com/sindresorhus/gulp-es6-transpiler) - ES6 → ES5 with [es6-transpiler](https://github.com/termi/es6-transpiler).
 * [gulp-myth](https://github.com/sindresorhus/gulp-myth) - [Myth](https://github.com/segmentio/myth) - a polyfill for future versions of the CSS spec.
-* [gulp-cssnext](https://github.com/cssnext/gulp-cssnext) - Use tomorrow's CSS syntax, today, using [cssnext](https://github.com/cssnext/cssnext).
+* [gulp-cssnext](https://github.com/MoOx/gulp-cssnext) - Use tomorrow's CSS syntax, today, using [cssnext](https://github.com/MoOx/postcss-cssnext).
 
 ### Concatenating
-* [gulp-concat](https://github.com/wearefractal/gulp-concat) - Concatenate files.
+* [gulp-concat](https://github.com/contra/gulp-concat) - Concatenate files.
 
 ### Minifying
 * [gulp-minify-css](https://github.com/murphydanger/gulp-minify-css) - Minify CSS with [clean-css](https://github.com/jakubpawlowicz/clean-css).
@@ -137,7 +137,7 @@
 * [gulp-uglify](https://github.com/terinjokes/gulp-uglify) - Minify JavaScript with [UglifyJS2](https://github.com/mishoo/UglifyJS2).
 * [gulp-htmlmin](https://github.com/jonschlinkert/gulp-htmlmin) - Minify HTML with [html-minifier](https://github.com/kangax/html-minifier).
 * [gulp-minify-html](https://github.com/murphydanger/gulp-minify-html) - Minify HTML with
- [Minimize](https://github.com/Moveo/minimize).
+ [Minimize](https://github.com/Swaagie/minimize).
 * [gulp-imagemin](https://github.com/sindresorhus/gulp-imagemin) - Minify PNG, JPEG, GIF and SVG images with [imagemin](https://github.com/imagemin/imagemin).
 * [gulp-svgmin](https://github.com/ben-eb/gulp-svgmin) - Minify SVG files with gulp.
 
@@ -156,7 +156,7 @@
 
 ### Templating
 * [gulp-angular-templatecache](https://github.com/miickel/gulp-angular-templatecache) - Concatenate and register AngularJS templates in the $templateCache.
-* [gulp-jade](https://github.com/phated/gulp-jade) - [Jade](https://github.com/jadejs/jade) → HTML.
+* [gulp-jade](https://github.com/phated/gulp-jade) - [Jade](https://github.com/pugjs/jade) → HTML.
 * [gulp-handlebars](https://github.com/lazd/gulp-handlebars) - [Handlebars](https://github.com/wycats/handlebars.js) templates → JavaScript.
 * [gulp-nunjucks](https://github.com/sindresorhus/gulp-nunjucks) - [Nunjucks](https://github.com/mozilla/nunjucks) templates → JavaScript.
 * [gulp-dustjs](https://github.com/sindresorhus/gulp-dust) - [Dust](https://github.com/linkedin/dustjs) templates → JavaScript.
@@ -182,7 +182,7 @@
 
 ### Caching
 * [gulp-changed](https://github.com/sindresorhus/gulp-changed) - Only pass through changed files.
-* [gulp-cached](https://github.com/wearefractal/gulp-cached) - A simple in-memory file cache.
+* [gulp-cached](https://github.com/contra/gulp-cached) - A simple in-memory file cache.
 * [gulp-remember](https://github.com/ahaurw01/gulp-remember) - Remember and recall files passed through it.
 * [gulp-newer](https://github.com/tschaub/gulp-newer) - Pass through newer source files only.
 
