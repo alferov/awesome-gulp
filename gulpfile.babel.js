@@ -61,6 +61,7 @@ gulp.task('styles', () => {
     .pipe($.sass({
       includePaths: ['./node_modules/material-design-lite/src']
     }))
+    .pipe($.minifyCss())
     .pipe(gulp.dest(config.dist + '/css'))
     .pipe(browserSync.stream());
 });
@@ -109,7 +110,9 @@ gulp.task('watch', () => {
  */
 gulp.task('gh-pages', () => {
   return gulp.src(config.dist + '/**/*')
-    .pipe($.ghPages());
+    .pipe($.ghPages({
+      force: true
+    }));
 });
 
 gulp.task('deploy', cb => {
