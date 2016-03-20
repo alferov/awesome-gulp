@@ -109,10 +109,8 @@ gulp.task('watch', () => {
  * Publish to gh-pages
  */
 gulp.task('gh-pages', () => {
-  return gulp.src(config.dist + '/**/*')
-    .pipe($.ghPages({
-      force: true
-    }));
+  return gulp.src(config.dist + '/**/*.*')
+    .pipe($.ghPages());
 });
 
 gulp.task('deploy', cb => {
