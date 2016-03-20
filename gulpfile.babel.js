@@ -2,7 +2,6 @@ import gulp from 'gulp';
 import gulpLoadPlugins from 'gulp-load-plugins';
 import del from 'del';
 import browserSync from 'browser-sync';
-import { stream as wiredep } from 'wiredep';
 import runSequence from 'run-sequence';
 
 const $ = gulpLoadPlugins();
@@ -30,17 +29,6 @@ function fileContents(filePath, file) {
 }
 
 /**
- * Add Bower dependencies to the source code automatically
- */
-gulp.task('wiredep', () => {
-  gulp.src(config.src.html)
-    .pipe(wiredep({
-      ignorePath: /^(\.\.\/)*\.\./
-    }))
-    .pipe(gulp.dest(config.src.root));
-});
-
-/**
  * Inject compiled markdown
  */
 gulp.task('markdown', () => {
@@ -50,23 +38,13 @@ gulp.task('markdown', () => {
     .pipe($.inject(markdown, {
      transform: fileContents
     }))
-    .pipe(gulp.dest(config.src.root));
+    .pipe(gulp.dest(config.src.root))
+    .pipe(gulp.dest(config.dist));
 });
 
 /**
 * Assets related tasks
 */
-gulp.task('html', () => {
-  const assets = $.useref.assets({searchPath: ['.', config.dist]});
-
-  return gulp.src(config.src.html)
-    .pipe(assets)
-    .pipe($.if('*.css', $.minifyCss()))
-    .pipe(assets.restore())
-    .pipe($.useref())
-    .pipe(gulp.dest(config.dist))
-    .pipe(browserSync.stream());
-});
 
 gulp.task('font', () => {
   return gulp.src(config.src.font)
@@ -80,7 +58,9 @@ gulp.task('img', () => {
 
 gulp.task('styles', () => {
   gulp.src(config.src.styles + '/custom.scss')
-    .pipe($.sass())
+    .pipe($.sass({
+      includePaths: ['./node_modules/material-design-lite/src']
+    }))
     .pipe(gulp.dest(config.dist + '/css'))
     .pipe(browserSync.stream());
 });
@@ -96,7 +76,6 @@ gulp.task('serve:dev', () => {
     server: {
       baseDir: config.browserSync.baseDir,
       routes: {
-        '/bower_components': './bower_components',
         '/img': './docs/src/img',
         '/css': './build/css',
         '/font': './build/font'
@@ -121,10 +100,8 @@ gulp.task('serve:dist', () => {
 });
 
 gulp.task('watch', () => {
-  gulp.watch([config.src.html, config.src.styles], ['html']);
   gulp.watch(config.src.markdown, ['markdown']);
   gulp.watch(config.src.styles + '/**/*.scss', ['styles']);
-  gulp.watch('bower.json', ['wiredep']);
 });
 
 /**
@@ -143,7 +120,7 @@ gulp.task('deploy', cb => {
  * Build tasks
  */
 gulp.task('build', cb => {
-  runSequence('clean', 'markdown', ['styles','font', 'img'], 'html',  cb);
+  runSequence('clean', 'markdown', ['styles','font', 'img'],  cb);
 });
 
 gulp.task('dev', cb => {
