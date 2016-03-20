@@ -132,7 +132,7 @@
 * [gulp-concat](https://github.com/contra/gulp-concat) - Concatenate files.
 
 ### Minification
-* [gulp-minify-css](https://github.com/murphydanger/gulp-minify-css) - Minify CSS with [clean-css](https://github.com/jakubpawlowicz/clean-css).
+* [gulp-clean-css](https://github.com/scniro/gulp-clean-css) - Minify CSS with [clean-css](https://github.com/jakubpawlowicz/clean-css).
 * [gulp-csso](https://github.com/ben-eb/gulp-csso) - Minify CSS with [CSSO](https://github.com/css/csso).
 * [gulp-uglify](https://github.com/terinjokes/gulp-uglify) - Minify JavaScript with [UglifyJS2](https://github.com/mishoo/UglifyJS2).
 * [gulp-htmlmin](https://github.com/jonschlinkert/gulp-htmlmin) - Minify HTML with [html-minifier](https://github.com/kangax/html-minifier).
