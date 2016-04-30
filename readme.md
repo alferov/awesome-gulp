@@ -230,6 +230,7 @@
 * [gulp-git](https://github.com/stevelacy/gulp-git) - Run Git commands with gulp.
 * [gulp-filter](https://github.com/sindresorhus/gulp-filter) - Filter files in a vinyl stream using globbing.
 * [gulp-preprocess](https://github.com/jas/gulp-preprocess) - Preprocess files based on custom context or environment configuration.
+* [gulp-eval] (https://github.com/gulp-bem/gulp-eval) - Eval JS-expression or require CommonJS modules and JSON files.
 
 ## Scaffolding
 ### Boilerplates
