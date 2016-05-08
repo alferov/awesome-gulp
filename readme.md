@@ -8,6 +8,7 @@
 :octocat: All contributions welcome. Feel free to contribute ([guidelines](contributing.md)).
 
 ## Contents
+- [Legend](#legend)
 - [Resources](#resources)
   - [General Resources](#general-resources)
   - [Official Documentation](#official-documentation)
@@ -41,6 +42,9 @@
   - [Boilerplates](#boilerplates)
   - [Yeoman Generators](#yeoman-generators)
 - [Miscellaneous](#miscellaneous)
+
+## Legend
+[:no_entry:] - A deprecation notice;
 
 ## Resources
 ### General Resources
@@ -124,9 +128,9 @@
 * [gulp-babel](https://github.com/babel/gulp-babel) - ES6 → ES5 with [babel](https://github.com/babel/babel).
 * [gulp-traceur](https://github.com/sindresorhus/gulp-traceur) - ES6 → ES5 using [Traceur](https://github.com/google/traceur-compiler).
 * [gulp-regenerator](https://github.com/sindresorhus/gulp-regenerator) - ES6 → ES5 with [Regenerator](https://github.com/facebook/regenerator).
-* [gulp-es6-transpiler](https://github.com/sindresorhus/gulp-es6-transpiler) - [Deprecated] ES6 → ES5 with [es6-transpiler](https://github.com/termi/es6-transpiler).
+* [gulp-es6-transpiler](https://github.com/sindresorhus/gulp-es6-transpiler) - [:no_entry:] ES6 → ES5 with [es6-transpiler](https://github.com/termi/es6-transpiler).
 * [gulp-myth](https://github.com/sindresorhus/gulp-myth) - [Myth](https://github.com/segmentio/myth) - a polyfill for future versions of the CSS spec.
-* [gulp-cssnext](https://github.com/MoOx/gulp-cssnext) - [Deprecated] Use tomorrow's CSS syntax, today, using [cssnext](https://github.com/MoOx/postcss-cssnext).
+* [gulp-cssnext](https://github.com/MoOx/gulp-cssnext) - [:no_entry:] Use tomorrow's CSS syntax, today, using [cssnext](https://github.com/MoOx/postcss-cssnext).
 
 ### Concatenation
 * [gulp-concat](https://github.com/contra/gulp-concat) - Concatenate files.
