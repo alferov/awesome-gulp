@@ -48,21 +48,21 @@ gulp.task('markdown', () => {
 
 gulp.task('font', () => {
   return gulp.src(config.src.font)
-    .pipe(gulp.dest(config.dist + '/font'));
+    .pipe(gulp.dest(`${config.dist}/font`));
 });
 
 gulp.task('img', () => {
   return gulp.src(config.src.img)
-    .pipe(gulp.dest(config.dist + '/img'));
+    .pipe(gulp.dest(`${config.dist}/img`));
 });
 
 gulp.task('styles', () => {
-  gulp.src(config.src.styles + '/custom.scss')
+  gulp.src(`${config.src.styles}/custom.scss`)
     .pipe($.sass({
       includePaths: ['./node_modules/material-design-lite/src']
     }))
     .pipe($.minifyCss())
-    .pipe(gulp.dest(config.dist + '/css'))
+    .pipe(gulp.dest(`${config.dist}/css`))
     .pipe(browserSync.stream());
 });
 
@@ -102,14 +102,14 @@ gulp.task('serve:dist', () => {
 
 gulp.task('watch', () => {
   gulp.watch(config.src.markdown, ['markdown']);
-  gulp.watch(config.src.styles + '/**/*.scss', ['styles']);
+  gulp.watch(`${config.src.styles}/**/*.scss`, ['styles']);
 });
 
 /**
  * Publish to gh-pages
  */
 gulp.task('gh-pages', () => {
-  return gulp.src(config.dist + '/**/*')
+  return gulp.src(`${config.dist}/**/*`)
     .pipe($.ghPages());
 });
 
