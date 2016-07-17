@@ -248,6 +248,7 @@
 * [hapi-ninja](https://github.com/poeticninja/hapi-ninja) - A Node.js, Hapi, and Swig boilerplate.
 * [laravel-5-boilerplate](https://github.com/rappasoft/laravel-5-boilerplate) - A Laravel 5 boilerplate project.
 * [react-starterkit](https://github.com/wbkd/react-starterkit) - React starter kit that contains react-router, Reflux, jest, webpack, gulp and Stylus.
+* [angular1coffee-starter-kit](https://github.com/Shyam-Chen/Angular1Coffee-Starter-Kit) - Boilerplate using Angular, Material, Firebase, Pug, Stylus, CoffeeScript, Gulp, PostCSS and Browserify.
 
 ### Yeoman Generators
 * [generator-gulp-webapp](https://github.com/yeoman/generator-gulp-webapp) - A gulp generator for modern webapps.
