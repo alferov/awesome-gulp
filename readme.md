@@ -74,7 +74,7 @@
 * [Video: Learning Gulp](http://leveluptuts.com/tutorials/learning-gulp)
 * [Using Gulp to Inject Scripts and Styles Tags Directly into Your HTML](http://blog.johnnyreilly.com/2015/02/using-gulp-in-asp-net-instead-of-web-optimization.html)
 * [5 Lessons Learned Using Gulp.js](http://denbuzze.com/post/5-lessons-learned-using-gulpjs/)
-* [Automating Linkage: How I Learned to Stop Worrying and Love the Build](http://lab.brightnorth.co.uk/2014/08/13/automating-linkage-how-i-learned-to-stop-worrying-and-love-the-build/)
+* [Automating Linkage: How I Learned to Stop Worrying and Love the Build](http://conan.is/bower/gulp/wiredep/javascript/2014/08/18/automating_linkage-or-how-i-learned-to-stop-worrying-and-love-the-build.html)
 * [Setting Up Gulp Tasks for the First Time](https://www.codementor.io/development-process/tutorial/how-to-set-up-gulp-beginner-guide#/)
 * [Why You Shouldn’t Create a Gulp Plugin (or, How to Stop Worrying and Learn to Love Existing Node Packages)](http://blog.overzealous.com/post/74121048393/why-you-shouldnt-create-a-gulp-plugin-or-how-to)
 * [6 Gulp Best Practices You Can Use Today to Radically Improve Your Development Experience](http://blog.rangle.io/angular-gulp-bestpractices/)
@@ -96,9 +96,9 @@
 * [Advanced AngularJS Structure with Gulp, Node and Browserify](http://omarfouad.com/blog/2015/03/21/advanced-angularjs-structure-with-gulp-node-and-browserify/)
 
 #### Gulp with Angular and Webpack
-* [Angular, Webpack and Gulp for an SPA: Part I](http://luwen-huang.net/2015/01/18/Angular-webpack-and-gulp-for-SPAs-Part-I.html)
-* [Angular, Webpack and Gulp for an SPA: Part II](http://luwen-huang.net/2015/01/20/Angular-webpack-and-gulp-for-SPAs-Part-II.html)
-* [Angular, Webpack and Gulp for an SPA: Part III](http://luwen-huang.net/2015/01/25/Angular-webpack-and-gulp-for-SPAs-Part-III.html)
+* [Angular, Webpack and Gulp for an SPA: Part I](https://luwenhuang.wordpress.com/2015/01/18/refactoring-an-angular-app-to-use-webpack-and-gulp/)
+* [Angular, Webpack and Gulp for an SPA: Part II](https://luwenhuang.wordpress.com/2015/01/19/angular-webpack-and-gulp-for-an-spa-part-ii/)
+* [Angular, Webpack and Gulp for an SPA: Part III](https://luwenhuang.wordpress.com/2015/01/28/angular-webpack-and-gulp-for-an-spa-part-iii/)
 
 #### Gulp with React and Browserify
 * [Browserify and Gulp with React](https://hacks.mozilla.org/2014/08/browserify-and-gulp-with-react/)
@@ -143,8 +143,7 @@
 * [gulp-csso](https://github.com/ben-eb/gulp-csso) - Minify CSS with [CSSO](https://github.com/css/csso).
 * [gulp-uglify](https://github.com/terinjokes/gulp-uglify) - Minify JavaScript with [UglifyJS2](https://github.com/mishoo/UglifyJS2).
 * [gulp-htmlmin](https://github.com/jonschlinkert/gulp-htmlmin) - Minify HTML with [html-minifier](https://github.com/kangax/html-minifier).
-* [gulp-minify-html](https://github.com/murphydanger/gulp-minify-html) - Minify HTML with
- [Minimize](https://github.com/Swaagie/minimize).
+* [gulp-htmlmin](https://github.com/jonschlinkert/gulp-htmlmin) - Minify HTML.
 * [gulp-imagemin](https://github.com/sindresorhus/gulp-imagemin) - Minify PNG, JPEG, GIF and SVG images with [imagemin](https://github.com/imagemin/imagemin).
 * [gulp-svgmin](https://github.com/ben-eb/gulp-svgmin) - Minify SVG files with gulp.
 
