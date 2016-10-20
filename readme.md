@@ -107,6 +107,9 @@
 #### Gulp with Ember
 * [Improving Your Ember.js Workflow Using Gulp.js](http://www.sitepoint.com/improving-ember-js-workflow-using-gulp-js/)
 
+#### Gulp with WordPress
+* [Advanced WordPress Development Using Gulp](https://premium.wpmudev.org/blog/advanced-wordpress-development-using-gulp/)
+
 ### Miscellaneous Resources
 * [Gulp Cheatsheet](https://github.com/osscafe/gulp-cheatsheet)
 * [Playground for Gulp Recipes](https://github.com/johnpapa/gulp-patterns)
