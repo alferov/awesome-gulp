@@ -175,7 +175,7 @@ _Looking for something else? Take a look at other [awesome lists](https://github
 - [gulp-css-base64](https://github.com/zckrs/gulp-css-base64) - Transform all resources found (those within a url() declaration) in CSS files into base64-encoded data URI strings.
 - [gulp-svg2png](https://github.com/akoenig/gulp-svg2png) - Convert SVGs to PNGs.
 - [gulp-responsive](https://github.com/mahnunchik/gulp-responsive) - Generate images at different sizes.
-- [gulp-svgstore](https://github.com/w0rm/gulp-svgstore) - Combine svg files into one with <symbol> elements.
+- [gulp-svgstore](https://github.com/w0rm/gulp-svgstore) - Combine svg files into one with `<symbol>` elements.
 - [gulp-iconfont](https://github.com/nfroidure/gulp-iconfont) - Create icon fonts from several SVG icons.
 
 ### Injecting Assets
@@ -194,7 +194,7 @@ _Looking for something else? Take a look at other [awesome lists](https://github
 - [gulp-dustjs](https://github.com/sindresorhus/gulp-dust) - [Dust](https://github.com/linkedin/dustjs) templates → JavaScript.
 - [gulp-riot](https://github.com/e-jigsaw/gulp-riot) - [Riot](https://github.com/riot/riot) templates → JavaScript.
 - [gulp-markdown](https://github.com/sindresorhus/gulp-markdown) - Markdown → HTML.
-- [gulp-template](https://github.com/sindresorhus/gulp-template) - [Lodash ](https://github.com/lodash/lodash) templates → JavaScript.
+- [gulp-template](https://github.com/sindresorhus/gulp-template) - [Lodash](https://github.com/lodash/lodash) templates → JavaScript.
 - [gulp-swig](https://github.com/colynb/gulp-swig) - [Swig](https://github.com/paularmstrong/swig) templates → HTML.
 - [gulp-remark](https://github.com/denysdovhan/gulp-remark) - Gulp plugin for [remark](https://github.com/wooorm/remark) - markdown processor powered by plugins
 
