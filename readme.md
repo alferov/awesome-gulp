@@ -204,6 +204,7 @@
 * [gulp-notify](https://github.com/mikaelbr/gulp-notify) - Notification plugin for gulp.
 * [gulp-size](https://github.com/sindresorhus/gulp-size) - Display the size of your project.
 * [gulp-debug](https://github.com/sindresorhus/gulp-debug) - Debug vinyl file streams to see what files are run through your gulp pipeline.
+* [gulp-beer](https://github.com/lordgiotto/gulp-beer) - Better Error Reporting with interactive system notifications and custom server for error displaying.
 
 ### Testing
 * [gulp-mocha](https://github.com/sindresorhus/gulp-mocha) - Run [Mocha](https://github.com/mochajs/mocha) tests.
