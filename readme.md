@@ -271,6 +271,7 @@ _Looking for something else? Take a look at other [awesome lists](https://github
 - [gulp-filter](https://github.com/sindresorhus/gulp-filter) - Filter files in a vinyl stream using globbing.
 - [gulp-preprocess](https://github.com/jas/gulp-preprocess) - Preprocess files based on custom context or environment configuration.
 - [gulp-eval](https://github.com/gulp-bem/gulp-eval) - Eval JS-expression or require CommonJS modules and JSON files.
+- [gulp-merge-json](https://github.com/joshswan/gulp-merge-json) - A gulp plugin for deep-merging multiple JSON files into one file. Export as JSON or a node module.
 
 ## Scaffolding
 
