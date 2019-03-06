@@ -248,7 +248,7 @@ _Looking for something else? Take a look at other [awesome lists](https://github
 
 ### Miscellaneous Plugins
 
-- [gulp-util](https://github.com/gulpjs/gulp-util) - Set of useful utilities.
+- [gulp-util](https://github.com/gulpjs/gulp-util) - [:no_entry:] Set of useful utilities.
 - [gulp-plumber](https://github.com/floatdrop/gulp-plumber) - Prevent pipe breaking caused by errors.
 - [gulp-load-plugins](https://github.com/jackfranklin/gulp-load-plugins) - Automatically load in gulp plugins.
 - [main-bower-files](https://github.com/ck86/main-bower-files) - Simplify build process setup by dynamically getting the library files.
